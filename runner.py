@@ -29,8 +29,8 @@ class Clipping(Clipping):
 class ClippingsReader:
     def __init__(self, clippings_file_path: str = "My Clippings.txt"):
         self._clippings_file_path = clippings_file_path
-        self._clippings = Clippings()
-        self._clippings_by_title_author = {}
+        self.clippings = Clippings()
+        self.clippings_by_title_author = {}
         self._load_settings()
         self._load_clippings_file()
 
@@ -71,6 +71,9 @@ class ClippingsReader:
                 if not clipping.text or limit_text in clipping.text:
                     continue
                 if clipping.title_author in self.settings["drops"]:
+                    drop_items = self.settings["drops"][clipping.title_author]
+                    if isinstance(drop_items, bool):
+                        continue
                     for drop in self.settings["drops"][clipping.title_author]:
                         if (
                             int(drop["start"]) == clipping.start_location
