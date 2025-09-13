@@ -14,6 +14,7 @@
     },
     "drops": {
         "Alter - The Hebrew Bible": [{ "start": 92258, "end": 92259 }],
-        "Tolkien - The Hobbit": [{ "start": 3765, "end": 3766 }]
+        "Tolkien - The Hobbit": [{ "start": 3765, "end": 3766 }],
+        "Galli - 131 Christians Everyone Should Know": true
     }
 }
