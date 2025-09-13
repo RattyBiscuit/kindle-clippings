@@ -1,4 +1,5 @@
 import json
+from pathlib import Path
 
 import dateutil.parser
 from anyascii import anyascii
@@ -84,16 +85,18 @@ class ClippingsReader:
             break
 
     def _make_markdown(self, title_author, clippings):
-        print(title_author)
+        output_file = "/mnt/c/Users/Alan/Obsidian/BibleNotes/scratch.md"
+        output_file = Path(output_file)
         clips = []
         for clipping in clippings:
             clip_text = [
                 clipping.text,
-                f'<div style="text-align: right">Page {clipping.page} (Location {clipping.start_location}-{clipping.end_location})</div>',
+                f'<div style="text-align: right"><i>Page {clipping.page} (Location {clipping.start_location}-{clipping.end_location})</i></div>',
                 "",
             ]
             clips.append("\n".join(clip_text))
-        print("\n---\n\n".join(clips))
+        md_text = "\n---\n\n".join(clips)
+        output_file.write_text(md_text)
         return clips
 
 
