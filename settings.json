@@ -1,0 +1,16 @@
+{
+    "renames": {
+        "Heiser, Michael S. - I Dare You Not to Bore Me With the Bible (2014, Lexham Press) - libgen.li (Michael S. Heiser)": "Heiser - I Dare You Not to Bore Me With the Bible",
+        "Mark Galli_ Ted Olsen_ J. I. Packer - 131 Christians Everyone Should Know (2010, B&H Publishing Group) - libgen.li (Mark Galli)": "Galli - 131 Christians Everyone Should Know",
+        "Mere Christianity": "Lewis - Mere Christianity",
+        "Mere Christianity (Lewis, C. S.)": "Lewis - Mere Christianity",
+        "Praying Like Monks, Living Like Fools: An Invitation to the Wonder and Mystery of Prayer (Staton, Tyler)": "Staton - Praying Like Monks, Living Like Fools",
+        "The Hebrew Bible (Robert Alter)": "Alter - The Hebrew Bible",
+        "The Holy Bible, English Standard Version (without Cross-References) (Crossway Bibles)": "ESV Bible",
+        "The Practice of the Presence of God the Best Rule of a Holy Life (Brother Lawrence)": "Lawrence - The Practice of the Presence of God the Best Rule of a Holy Life",
+        "The Unseen Realm: Recovering the Supernatural Worldview of the Bible (Heiser, Michael S.)": "Heiser - The Unseen Realm",
+        "The Hobbit: The Classic Bestselling Fantasy Novel": "Tolkien - The Hobbit",
+        "Christian Origins 1 - The New Testiment and the People of God - N. T. Wright (1992) (N. T. Wright)": "Wright: Christian Origins 1 - The New Testiment and the People of God"
+    },
+    "drops": { "Alter - The Hebrew Bible": [{ "start": 92258, "end": 92259 }] }
+}

@@ -1,0 +1,35 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#57f161",
+        "activityBar.background": "#57f161",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#756cf3",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#57f161",
+        "statusBar.background": "#28ed35",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#11d11e",
+        "statusBarItem.remoteBackground": "#28ed35",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#28ed35",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#28ed3599",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.remoteColor": "#28ed35",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "isort.args": ["--profile", "black"]
+}
