@@ -57,7 +57,6 @@ class ClippingsReader:
         self.__group_clippings()
 
     def __parse_clippings(self):
-        # Parse clippings
         """
         Parse raw clippings from a file and store them in the Clippings object.
 
@@ -65,27 +64,20 @@ class ClippingsReader:
         and then checks if the clipping should be dropped according to the settings.
         If the clipping should not be dropped, it is added to the Clippings object.
         """
-        for raw_clipping in self.raw_clippings:
+        limit_text = "<You have reached the clipping limit for this item>"
+        for raw_clipping in self._raw_clippings:
             if raw_clipping.strip():  # Skip empty clippings
                 clipping = Clipping(raw_clipping, self.settings)
-                drop_clipping = False
-                if not clipping.text:
-                    drop_clipping = True
-                elif (
-                    "<You have reached the clipping limit for this item>"
-                    in clipping.text
-                ):
-                    drop_clipping = True
+                if not clipping.text or limit_text in clipping.text:
+                    continue
                 if clipping.title_author in self.settings["drops"]:
                     for drop in self.settings["drops"][clipping.title_author]:
                         if (
                             int(drop["start"]) == clipping.start_location
                             and int(drop["end"]) == clipping.end_location
                         ):
-                            drop_clipping = True
-                            break
-                if not drop_clipping:
-                    self.clippings.add_clipping(clipping)
+                            continue
+                self.clippings.add_clipping(clipping)
 
     def __group_clippings(self):
         """
