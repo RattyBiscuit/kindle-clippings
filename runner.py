@@ -27,28 +27,44 @@ class Clipping(Clipping):
 
 
 class ClippingsReader:
-    def __init__(self, clippings_file="My Clippings.txt"):
-        self.clippings_file = clippings_file
-        self.clippings = Clippings()
-        self.clippings_by_title_author = {}
-        self.__read_settings()
-        self.__load_clippings_file()
+    def __init__(self, clippings_file_path: str = "My Clippings.txt"):
+        self._clippings_file_path = clippings_file_path
+        self._clippings = Clippings()
+        self._clippings_by_title_author = {}
+        self._load_settings()
+        self._load_clippings_file()
 
-    def __read_settings(self):
-        with open("settings.json") as f:
-            self.settings = json.load(f)
+    def _load_settings(self):
+        """
+        Load settings from a JSON file.
+        """
+        with open("settings.json") as file:
+            self.settings = json.load(file)
 
-    def __load_clippings_file(self):
-        # Load raw clippings from a file
-        with open("My Clippings.txt", "r", encoding="utf-8") as file:
-            self.raw_clippings = file.read().split("==========")
+    def _load_clippings_file(self):
+        """
+        Load raw clippings from a file.
+        """
+        with open(self._clippings_file_path, "r", encoding="utf-8") as file:
+            raw_clippings_data = file.read()
+            self._raw_clippings = raw_clippings_data.split("==========")
 
     def parse(self):
+        """
+        Parse raw clippings from a file and group them by title and author.
+        """
         self.__parse_clippings()
         self.__group_clippings()
 
     def __parse_clippings(self):
         # Parse clippings
+        """
+        Parse raw clippings from a file and store them in the Clippings object.
+
+        This function iterates over each raw clipping, creates a Clipping object from it,
+        and then checks if the clipping should be dropped according to the settings.
+        If the clipping should not be dropped, it is added to the Clippings object.
+        """
         for raw_clipping in self.raw_clippings:
             if raw_clipping.strip():  # Skip empty clippings
                 clipping = Clipping(raw_clipping, self.settings)
@@ -72,6 +88,15 @@ class ClippingsReader:
                     self.clippings.add_clipping(clipping)
 
     def __group_clippings(self):
+        """
+        Group clippings by title and author.
+
+        This function takes the clippings parsed from the file and groups them by title and author.
+        It first sorts the clippings by date and then iterates over each clipping, adding it to
+        the self.clippings_by_title_author dictionary. If the title and author are not already in the
+        dictionary, it adds them and creates a new list for the clippings. If the title and author are
+        already in the dictionary, it simply appends the clipping to the existing list.
+        """
         clippings = sorted(self.clippings.clippings, key=lambda c: c.date)
         for clipping in clippings:
             self.clippings_by_title_author.setdefault(clipping.title_author, [])
