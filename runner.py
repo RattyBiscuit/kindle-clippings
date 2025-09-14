@@ -74,12 +74,15 @@ class ClippingsReader:
                     drop_items = self.settings["drops"][clipping.title_author]
                     if isinstance(drop_items, bool):
                         continue
-                    for drop in self.settings["drops"][clipping.title_author]:
-                        if (
-                            int(drop["start"]) == clipping.start_location
-                            and int(drop["end"]) == clipping.end_location
-                        ):
-                            continue
+                    drops = self.settings["drops"][clipping.title_author]
+                    should_drop = [
+                        drop
+                        for drop in drops
+                        if int(drop["start"]) == clipping.start_location
+                        and int(drop["end"]) == clipping.end_location
+                    ]
+                    if should_drop:
+                        continue
                 self.clippings.add_clipping(clipping)
 
     def __group_clippings(self):
