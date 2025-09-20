@@ -97,17 +97,38 @@ class ClippingsReader:
         If the clipping should not be dropped, it is added to the Clippings object.
         """
         clippings_for_df = self.__filter_raw_clippings()
-        self.df = pd.concat(
-            [self.df, pd.DataFrame(clippings_for_df)], ignore_index=True
-        )
+        self.df = pd.DataFrame(clippings_for_df)
         df = self.df.copy()
-        start_only_match = self.__drop_where_start_matches(df)
-        concat_clippings = self.__concat_clippings(start_only_match)
+        concat_clippings = self.__concat_clippings(df)
+        start_only_match = self.__drop_where_start_matches(concat_clippings)
 
-        self.df = concat_clippings
+        self.df = start_only_match
         self.__add_clippings_to_dict()
 
-    def __filter_raw_clippings(self, clippings_for_df):
+    def __concat_clippings(self, df):
+        df["start_location"] = df["start_location"].astype(int)
+        df["end_location"] = df["end_location"].astype(int)
+        df = df.sort_values(
+            by=["title_author", "page", "start_location", "end_location", "date"],
+        ).reset_index(drop=True)
+        df["next_start_location"] = df["start_location"].shift(-1)
+        df["next_text"] = df["text"].shift(-1)
+        df["index"] = df.index
+        df["next_index"] = df.index + 1
+
+        records_to_merge = df[(df["end_location"] == df["next_start_location"])]
+        if records_to_merge.empty:
+            return df
+        df["text"] = records_to_merge["text"] + " " + records_to_merge["next_text"]
+        # need to do a join on records_to_merge.next_index and df.index to drop the records here
+        df = df.drop(
+            columns=["next_start_location", "next_text", "next_index", "index"]
+        )
+        1
+
+        return self.__concat_clippings(df)
+
+    def __filter_raw_clippings(self):
         clippings_for_df = []
         limit_text = "<You have reached the clipping limit for this item>"
         for raw_clipping in self._raw_clippings:
@@ -141,9 +162,6 @@ class ClippingsReader:
         # Use the indices to get the corresponding rows
         latest_rows = df.loc[idx].reset_index(drop=True)
         return latest_rows
-
-    def __concat_clippings(self, df):
-        return df
 
     def __add_clippings_to_dict(self):
         for clippings in self.df.to_dict("records"):
