@@ -37,6 +37,17 @@ class Clipping(Clipping):
         }
 
 
+class PandaClipping(Clipping):
+
+    def __init__(self, clipping_dict):
+        self.title_author = clipping_dict["title_author"]
+        self.page = int(clipping_dict["page"])
+        self.start_location = clipping_dict["start_location"]
+        self.end_location = clipping_dict["end_location"]
+        self.date = clipping_dict["date"]
+        self.text = clipping_dict["text"]
+
+
 class ClippingsReader:
     def __init__(self, clippings_file_path: str = "My Clippings.txt"):
         self._clippings_file_path = clippings_file_path
@@ -85,8 +96,20 @@ class ClippingsReader:
         and then checks if the clipping should be dropped according to the settings.
         If the clipping should not be dropped, it is added to the Clippings object.
         """
-        limit_text = "<You have reached the clipping limit for this item>"
+        clippings_for_df = self.__filter_raw_clippings()
+        self.df = pd.concat(
+            [self.df, pd.DataFrame(clippings_for_df)], ignore_index=True
+        )
+        df = self.df.copy()
+        start_only_match = self.__drop_where_start_matches(df)
+        concat_clippings = self.__concat_clippings(start_only_match)
+
+        self.df = concat_clippings
+        self.__add_clippings_to_dict()
+
+    def __filter_raw_clippings(self, clippings_for_df):
         clippings_for_df = []
+        limit_text = "<You have reached the clipping limit for this item>"
         for raw_clipping in self._raw_clippings:
             if raw_clipping.strip():  # Skip empty clippings
                 clipping = Clipping(raw_clipping, self.settings)
@@ -106,13 +129,26 @@ class ClippingsReader:
                     if should_drop:
                         continue
                 clippings_for_df.append(clipping.to_dict())
+        return clippings_for_df
 
-                self.clippings.add_clipping(clipping)
-        self.df = pd.concat(
-            [self.df, pd.DataFrame(clippings_for_df)], ignore_index=True
-        )
-        print(self.df.head(10))
-        1
+    def __drop_where_start_matches(self, df):
+        # Convert 'date' column to datetime
+        df["date"] = pd.to_datetime(df["date"])
+
+        # Find the index of the max date for each group
+        idx = df.groupby(["title_author", "page", "start_location"])["date"].idxmax()
+
+        # Use the indices to get the corresponding rows
+        latest_rows = df.loc[idx].reset_index(drop=True)
+        return latest_rows
+
+    def __concat_clippings(self, df):
+        return df
+
+    def __add_clippings_to_dict(self):
+        for clippings in self.df.to_dict("records"):
+            clipping = PandaClipping(clippings)
+            self.clippings.add_clipping(clipping)
 
     def __group_clippings(self):
         """
@@ -124,7 +160,10 @@ class ClippingsReader:
         dictionary, it adds them and creates a new list for the clippings. If the title and author are
         already in the dictionary, it simply appends the clipping to the existing list.
         """
-        clippings = sorted(self.clippings.clippings, key=lambda c: c.date)
+        clippings = sorted(
+            self.clippings.clippings,
+            key=lambda c: (c.start_location, pd.to_datetime(c.date)),
+        )
         for clipping in clippings:
             self.clippings_by_title_author.setdefault(clipping.title_author, [])
             self.clippings_by_title_author[clipping.title_author].append(clipping)
