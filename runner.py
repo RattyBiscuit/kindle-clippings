@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 import dateutil.parser
+import pandas as pd
 from anyascii import anyascii
 from clippy import Clipping, Clippings
 
@@ -41,6 +42,16 @@ class ClippingsReader:
         self._clippings_file_path = clippings_file_path
         self.clippings = Clippings()
         self.clippings_by_title_author = {}
+        self.df = pd.DataFrame(
+            columns=[
+                "title_author",
+                "page",
+                "start_location",
+                "end_location",
+                "date",
+                "text",
+            ]
+        )
         self._load_settings()
         self._load_clippings_file()
 
@@ -75,6 +86,7 @@ class ClippingsReader:
         If the clipping should not be dropped, it is added to the Clippings object.
         """
         limit_text = "<You have reached the clipping limit for this item>"
+        clippings_for_df = []
         for raw_clipping in self._raw_clippings:
             if raw_clipping.strip():  # Skip empty clippings
                 clipping = Clipping(raw_clipping, self.settings)
@@ -93,7 +105,14 @@ class ClippingsReader:
                     ]
                     if should_drop:
                         continue
+                clippings_for_df.append(clipping.to_dict())
+
                 self.clippings.add_clipping(clipping)
+        self.df = pd.concat(
+            [self.df, pd.DataFrame(clippings_for_df)], ignore_index=True
+        )
+        print(self.df.head(10))
+        1
 
     def __group_clippings(self):
         """
