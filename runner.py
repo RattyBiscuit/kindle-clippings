@@ -25,6 +25,16 @@ class Clipping(Clipping):
             return py_date
         return date_added
 
+    def to_dict(self):
+        return {
+            "title_author": self.title_author,
+            "page": self.page,
+            "start_location": self.start_location,
+            "end_location": self.end_location,
+            "date": self.date,
+            "text": self.text,
+        }
+
 
 class ClippingsReader:
     def __init__(self, clippings_file_path: str = "My Clippings.txt"):
