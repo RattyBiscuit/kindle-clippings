@@ -111,21 +111,29 @@ class ClippingsReader:
         df = df.sort_values(
             by=["title_author", "page", "start_location", "end_location", "date"],
         ).reset_index(drop=True)
+        df["next_page"] = df["page"].shift(-1)
         df["next_start_location"] = df["start_location"].shift(-1)
+        df["next_end_location"] = df["end_location"].shift(-1)
         df["next_text"] = df["text"].shift(-1)
-        df["index"] = df.index
         df["next_index"] = df.index + 1
+        df["index"] = df.index
 
         records_to_merge = df[(df["end_location"] == df["next_start_location"])]
         if records_to_merge.empty:
             return df
         df["text"] = records_to_merge["text"] + " " + records_to_merge["next_text"]
-        # need to do a join on records_to_merge.next_index and df.index to drop the records here
-        df = df.drop(
-            columns=["next_start_location", "next_text", "next_index", "index"]
-        )
-        1
 
+        indices_to_drop = records_to_merge["next_index"].dropna().astype(int).tolist()
+
+        df = df[~(df["index"].isin(indices_to_drop))]
+        df = df.drop(
+            columns=[
+                "next_start_location",
+                "next_text",
+                "next_index",
+                "index",
+            ]
+        )
         return self.__concat_clippings(df)
 
     def __filter_raw_clippings(self):
