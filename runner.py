@@ -208,17 +208,8 @@ class ClippingsReader:
 
     def _make_markdown(self, title_author, clippings):
         clips = []
-        template = jinja2.Template(
-            """{% for clipping in clippings %}{{ clipping.text }}
-<div style="text-align: right"><i>{% if clipping.page %}Page {{clipping.page}} ({% endif %}Location {{clipping.start_location}}-{{clipping.end_location}}{% if clipping.page %}){% endif %}</i></div>{% if not loop.last %}
-
----
-
-{% endif %}{% endfor %}
-
-"""
-        )
-
+        with open("template.jinja") as f:
+            template = jinja2.Template(f.read())
         output_file = "/mnt/c/Users/Alan/Obsidian/BibleNotes/scratch.md"
         output_file = Path(output_file)
         if not output_file.exists():
