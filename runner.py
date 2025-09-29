@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 
 import dateutil.parser
+import jinja2
 import pandas as pd
 from anyascii import anyascii
 from clippy import Clipping, Clippings
@@ -41,7 +42,10 @@ class PandaClipping(Clipping):
 
     def __init__(self, clipping_dict):
         self.title_author = clipping_dict["title_author"]
-        self.page = int(clipping_dict["page"])
+        try:
+            self.page = int(clipping_dict["page"])
+        except ValueError:
+            self.page = None
         self.start_location = clipping_dict["start_location"]
         self.end_location = clipping_dict["end_location"]
         self.date = clipping_dict["date"]
@@ -99,19 +103,18 @@ class ClippingsReader:
         clippings_for_df = self.__filter_raw_clippings()
         self.df = pd.DataFrame(clippings_for_df)
         df = self.df.copy()
-        concat_clippings = self.__concat_clippings(df)
-        start_only_match = self.__drop_where_start_matches(concat_clippings)
+        df = self.__concat_clippings(df)
+        df = self.__drop_where_start_matches(df)
 
-        self.df = start_only_match
+        self.df = df
         self.__add_clippings_to_dict()
 
     def __concat_clippings(self, df):
         df["start_location"] = df["start_location"].astype(int)
         df["end_location"] = df["end_location"].astype(int)
         df = df.sort_values(
-            by=["title_author", "page", "start_location", "end_location", "date"],
+            by=["title_author", "start_location", "end_location", "date"],
         ).reset_index(drop=True)
-        df["next_page"] = df["page"].shift(-1)
         df["next_start_location"] = df["start_location"].shift(-1)
         df["next_end_location"] = df["end_location"].shift(-1)
         df["next_title_author"] = df["title_author"].shift(-1)
@@ -167,7 +170,7 @@ class ClippingsReader:
         df["date"] = pd.to_datetime(df["date"])
 
         # Find the index of the max date for each group
-        idx = df.groupby(["title_author", "page", "start_location"])["date"].idxmax()
+        idx = df.groupby(["title_author", "start_location"])["date"].idxmax()
 
         # Use the indices to get the corresponding rows
         latest_rows = df.loc[idx].reset_index(drop=True)
@@ -198,21 +201,23 @@ class ClippingsReader:
 
     def make_markdown(self):
         for title_author, clippings in self.clippings_by_title_author.items():
-            if not title_author.startswith("Lawrence"):
+            if not title_author.startswith("Heiser - T"):
                 continue
             self._make_markdown(title_author, clippings)
             break
 
     def _make_markdown(self, title_author, clippings):
         clips = []
-        for clipping in clippings:
-            clip_text = [
-                str(clipping.text),
-                f'<div style="text-align: right"><i>Page {clipping.page} (Location {clipping.start_location}-{clipping.end_location})</i></div>',
-                "",
-            ]
-            clips.append("\n".join(clip_text))
-        md_text = "\n---\n\n".join(clips)
+        template = jinja2.Template(
+            """{% for clipping in clippings %}{{ clipping.text }}
+<div style="text-align: right"><i>{% if clipping.page %}Page {{clipping.page}} ({% endif %}Location {{clipping.start_location}}-{{clipping.end_location}}{% if clipping.page %}){% endif %}</i></div>{% if not loop.last %}
+
+---
+
+{% endif %}{% endfor %}
+
+"""
+        )
 
         output_file = "/mnt/c/Users/Alan/Obsidian/BibleNotes/scratch.md"
         output_file = Path(output_file)
@@ -220,7 +225,7 @@ class ClippingsReader:
             output_file = "/home/alan/git/BibleNotes/scratch.md"
             output_file = Path(output_file)
 
-        output_file.write_text(md_text)
+        output_file.write_text(template.render({"clippings": clippings}))
         return clips
 
 
