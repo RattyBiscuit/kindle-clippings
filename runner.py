@@ -204,18 +204,14 @@ class ClippingsReader:
         with open("template.jinja") as f:
             self.template = jinja2.Template(f.read())
         for title_author, clippings in self.clippings_by_title_author.items():
-            if not title_author.startswith("Heiser - T"):
-                continue
             self.__get_summary(title_author)
-
             self._make_markdown(title_author, clippings)
-            break
 
     def __get_summary(self, title_author):
-        # self.summaries_by_title_author
         summary_file = Path("summaries") / f"{title_author}.md"
         if not summary_file.exists():
             self.summaries_by_title_author.setdefault(title_author, None)
+            return
         self.summaries_by_title_author.setdefault(
             title_author, summary_file.read_text()
         )
@@ -234,12 +230,11 @@ class ClippingsReader:
 
     def _make_markdown(self, title_author, clippings):
         clips = []
+        output_folder = Path("/mnt/c/Users/Alan/Obsidian/BibleNotes")
+        if not output_folder.is_dir():
+            output_folder = Path("/home/alan/git/BibleNotes")
+        output_file = output_folder / "Book Summaries" / f"{title_author}.md"
 
-        output_file = "/mnt/c/Users/Alan/Obsidian/BibleNotes/scratch.md"
-        output_file = Path(output_file)
-        if not output_file.exists():
-            output_file = "/home/alan/git/BibleNotes/scratch.md"
-            output_file = Path(output_file)
         options = self.__make_options(title_author, clippings)
         output_file.write_text(self.template.render(options))
         return clips
