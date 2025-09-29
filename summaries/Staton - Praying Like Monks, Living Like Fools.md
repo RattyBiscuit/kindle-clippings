@@ -1,10 +1,10 @@
-# Summary
+# Overview
 
 Praying Like Monks, Living Like Fools invites readers on a transformative journey to rediscover prayer as an essential, life-changing engagement with God. Drawing on his experience in the 24-7 Prayer movement, Tyler Staton dismantles barriers - fear of naivety, silence or wrong methods - and offers practical, historically rooted practices that make prayer both wondrous and accessible. Throughout the book, he emphasises that authentic prayer is less about technique and more about honesty, humility and a willingness to appear foolish before God, ultimately leading to deeper trust, conviction and community with others.
 
 ---
 
-# Chapter Summaries
+## Chapter Summaries
 
 -   **Chapter 1: Holy Ground (Pray as You Can)**  
      Staton recounts a childhood experiment of praying daily for friends, noting how ordinary places became “holy ground” when approached in faith. He identifies common fears - appearing naive, surrendering silence, wrong motives - and invites readers simply to speak as they can, assuring them that candid, unpolished prayers matter more than polished words.

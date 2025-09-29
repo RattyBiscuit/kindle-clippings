@@ -1,4 +1,4 @@
-# Summary
+# Overview
 
 Mere Christianity originated from a series of BBC radio talks that C. S. Lewis delivered during World War II, aiming to articulate the core beliefs shared by all Christian denominations. The work is organised into four books, each addressing a distinct aspect of the Christian faith.
 
@@ -12,9 +12,9 @@ Book 4, “Beyond personality: or first steps in the doctrine of the Trinity,”
 
 ---
 
-# Chapter Summaries
+## Chapter Summaries
 
-## Book 1: Right and wrong as a clue to the meaning of the universe
+### Book 1: Right and wrong as a clue to the meaning of the universe
 
 -   Chapter 1: The Law of Human Nature - asserts that people everywhere share an inner sense of right and wrong.
 -   Chapter 2: Some objections - addresses views that moral law is mere instinct or social convention.
@@ -24,7 +24,7 @@ Book 4, “Beyond personality: or first steps in the doctrine of the Trinity,”
 
 ---
 
-## Book 2: What Christians believe
+### Book 2: What Christians believe
 
 -   Chapter 1: The rival conceptions of God - compares Pantheism’s view of God as the universe with the theist view of a distinct Creator.
 -   Chapter 2: The Invasion - describes evil as a hostile force that has corrupted God’s creation through misuse of free will.
@@ -34,7 +34,7 @@ Book 4, “Beyond personality: or first steps in the doctrine of the Trinity,”
 
 ---
 
-## Book 3: Christian behaviour
+### Book 3: Christian behaviour
 
 -   Chapter 1: The three parts of morality - defines morality as harmony with oneself, with others and with God.
 -   Chapter 2: The “cardinal virtues” - introduces prudence, temperance, justice and fortitude as frameworks for moral action.
@@ -51,7 +51,7 @@ Book 4, “Beyond personality: or first steps in the doctrine of the Trinity,”
 
 ---
 
-## Book 4: Beyond personality: The doctrine of the Trinity
+### Book 4: Beyond personality: The doctrine of the Trinity
 
 -   Chapter 1: Making and Begetting - explores how the Son is begotten by the Father, revealing the nature of divine generation.
 -   Chapter 2: The Three-Personal God - explicates the concept of one God in three distinct Persons, co-equal and co-eternal.

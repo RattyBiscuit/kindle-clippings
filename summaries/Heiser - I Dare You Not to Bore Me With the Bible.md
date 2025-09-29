@@ -1,4 +1,4 @@
-## Summary
+# Overview
 
 I Dare You Not to Bore Me with the Bible is a vibrant collection of essays that tackles the Bible’s most perplexing and often overlooked passages, bringing fresh insight through ancient context and scholarly clarity. Michael S. Heiser curates contributions originally published in Bible Study Magazine, each aimed at transforming “weird” or “boring” texts into riveting gateways for understanding Scripture’s depth and nuance.
 
