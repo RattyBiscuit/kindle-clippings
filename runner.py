@@ -110,8 +110,8 @@ class ClippingsReader:
         self.__add_clippings_to_dict()
 
     def __concat_clippings(self, df):
-        df["start_location"] = df["start_location"].astype(int)
-        df["end_location"] = df["end_location"].astype(int)
+        df.loc[:, "start_location"] = df.loc[:, "start_location"].astype(int)
+        df.loc[:, "end_location"] = df.loc[:, "end_location"].astype(int)
         df = df.sort_values(
             by=["title_author", "start_location", "end_location", "date"],
         ).reset_index(drop=True)
