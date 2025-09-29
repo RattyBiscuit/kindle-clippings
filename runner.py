@@ -114,27 +114,29 @@ class ClippingsReader:
         df["next_page"] = df["page"].shift(-1)
         df["next_start_location"] = df["start_location"].shift(-1)
         df["next_end_location"] = df["end_location"].shift(-1)
+        df["next_title_author"] = df["title_author"].shift(-1)
         df["next_text"] = df["text"].shift(-1)
         df["next_index"] = df.index + 1
         df["index"] = df.index
 
-        records_to_merge = df[(df["end_location"] == df["next_start_location"])]
+        records_to_merge = df[
+            (df["title_author"] == df["next_title_author"])
+            & (df["end_location"] == df["next_start_location"])
+        ]
         if records_to_merge.empty:
             return df
-        df["text"] = records_to_merge["text"] + " " + records_to_merge["next_text"]
-
+        df["text"] = df.apply(self.__merge_text, axis=1)
         indices_to_drop = records_to_merge["next_index"].dropna().astype(int).tolist()
 
         df = df[~(df["index"].isin(indices_to_drop))]
-        df = df.drop(
-            columns=[
-                "next_start_location",
-                "next_text",
-                "next_index",
-                "index",
-            ]
-        )
         return self.__concat_clippings(df)
+
+    def __merge_text(self, row):
+        if row["title_author"] != row["next_title_author"]:
+            return row["text"]
+        if int(row["end_location"]) == int(row["next_start_location"]):
+            return row["text"] + " " + row["next_text"]
+        return row["text"]
 
     def __filter_raw_clippings(self):
         clippings_for_df = []
@@ -205,7 +207,7 @@ class ClippingsReader:
         clips = []
         for clipping in clippings:
             clip_text = [
-                clipping.text,
+                str(clipping.text),
                 f'<div style="text-align: right"><i>Page {clipping.page} (Location {clipping.start_location}-{clipping.end_location})</i></div>',
                 "",
             ]
