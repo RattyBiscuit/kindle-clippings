@@ -1,3 +1,5 @@
+{{overview}}## Kindle Highlights
+
 {% for clipping in clippings %}{{ clipping.text }}
 <div style="text-align: right"><i>{% if clipping.page %}Page {{clipping.page}} ({% endif %}Location {{clipping.start_location}}-{{clipping.end_location}}{% if clipping.page %}){% endif %}</i></div>{% if not loop.last %}
 
@@ -5,3 +7,4 @@
 
 {% endif %}{% endfor %}
 
+{{ chapters }}

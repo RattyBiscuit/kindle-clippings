@@ -57,6 +57,7 @@ class ClippingsReader:
         self._clippings_file_path = clippings_file_path
         self.clippings = Clippings()
         self.clippings_by_title_author = {}
+        self.summaries_by_title_author = {}
         self.df = pd.DataFrame(
             columns=[
                 "title_author",
@@ -200,23 +201,47 @@ class ClippingsReader:
             self.clippings_by_title_author[clipping.title_author].append(clipping)
 
     def make_markdown(self):
+        with open("template.jinja") as f:
+            self.template = jinja2.Template(f.read())
         for title_author, clippings in self.clippings_by_title_author.items():
             if not title_author.startswith("Heiser - T"):
                 continue
+            self.__get_summary(title_author)
+
             self._make_markdown(title_author, clippings)
             break
 
+    def __get_summary(self, title_author):
+        # self.summaries_by_title_author
+        summary_file = Path("summaries") / f"{title_author}.md"
+        if not summary_file.exists():
+            self.summaries_by_title_author.setdefault(title_author, None)
+        self.summaries_by_title_author.setdefault(
+            title_author, summary_file.read_text()
+        )
+
+    def __make_options(self, title_author, clippings):
+        breaker = """---
+
+## Chapter Summaries"""
+        options = {"clippings": clippings}
+        summary = self.summaries_by_title_author[title_author]
+        if summary:
+            overview, chapters = summary.split(breaker)
+            options["overview"] = overview
+            options["chapters"] = "## Chapter Summaries" + chapters
+        return options
+
     def _make_markdown(self, title_author, clippings):
         clips = []
-        with open("template.jinja") as f:
-            template = jinja2.Template(f.read())
+
         output_file = "/mnt/c/Users/Alan/Obsidian/BibleNotes/scratch.md"
         output_file = Path(output_file)
         if not output_file.exists():
             output_file = "/home/alan/git/BibleNotes/scratch.md"
             output_file = Path(output_file)
-
-        output_file.write_text(template.render({"clippings": clippings}))
+        options = self.__make_options(title_author, clippings)
+        output_file.write_text(self.template.render(options))
         return clips
 
 
