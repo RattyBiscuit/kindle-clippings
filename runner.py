@@ -202,8 +202,6 @@ class ClippingsReader:
             break
 
     def _make_markdown(self, title_author, clippings):
-        output_file = "/mnt/c/Users/Alan/Obsidian/BibleNotes/scratch.md"
-        output_file = Path(output_file)
         clips = []
         for clipping in clippings:
             clip_text = [
@@ -213,6 +211,13 @@ class ClippingsReader:
             ]
             clips.append("\n".join(clip_text))
         md_text = "\n---\n\n".join(clips)
+
+        output_file = "/mnt/c/Users/Alan/Obsidian/BibleNotes/scratch.md"
+        output_file = Path(output_file)
+        if not output_file.exists():
+            output_file = "/home/alan/git/BibleNotes/scratch.md"
+            output_file = Path(output_file)
+
         output_file.write_text(md_text)
         return clips
 
