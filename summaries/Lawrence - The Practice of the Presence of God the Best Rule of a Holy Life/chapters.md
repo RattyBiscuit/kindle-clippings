@@ -1,6 +1,3 @@
-## Chapter Summaries
-
-
 ### Part I: Conversations
 
 #### Chapter 1: First Conversation

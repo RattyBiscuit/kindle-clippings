@@ -1,5 +1,3 @@
-## Chapter Summaries
-
 ### Part 1: Ancient Worldviews
 
 -   Introduction to Egyptian, Mesopotamian and early Israelite cosmologies, demonstrating shared assumptions about a flat earth, primal sea and heavenly dome.

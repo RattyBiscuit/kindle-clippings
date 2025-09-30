@@ -1,3 +1,1 @@
-# Overview
-
 The Unseen Realm excavates the ancient biblical worldview, revealing a rich tapestry of divine beings, heavenly councils, and spiritual conflicts that shape salvation history. Drawing on Hebrew linguistics and Near Eastern parallels, Heiser argues that modern readers have largely filtered out the supernatural fabric of Scripture. From Eden’s council chamber to the final eschatological assembly, he traces how God and His entourage govern creation and engage in cosmic warfare. The following breakdown provides a concise chapter-by-chapter guide to Heiser’s restoration of the Bible’s unseen dimensions.

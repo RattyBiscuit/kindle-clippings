@@ -1,5 +1,3 @@
-## Chapter Summaries
-
 ### Part One: Old Testament Essays
 
 • The Ancient’s Guide to the Galaxy

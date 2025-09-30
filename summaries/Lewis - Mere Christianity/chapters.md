@@ -1,5 +1,3 @@
-## Chapter Summaries
-
 ### Book 1: Right and wrong as a clue to the meaning of the universe
 
 -   Chapter 1: The Law of Human Nature - asserts that people everywhere share an inner sense of right and wrong.

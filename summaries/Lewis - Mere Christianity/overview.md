@@ -1,5 +1,3 @@
-# Overview
-
 Mere Christianity originated from a series of BBC radio talks that C. S. Lewis delivered during World War II, aiming to articulate the core beliefs shared by all Christian denominations. The work is organised into four books, each addressing a distinct aspect of the Christian faith.
 
 Book 1, titled “Right and wrong as a clue to the meaning of the universe,” argues that a universal Moral Law is inherent to human nature. Lewis contends that this law cannot be reduced to social convention or mere instinct but points to a real, timeless standard imposed by a mind beyond the material world.

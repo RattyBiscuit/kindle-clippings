@@ -1,5 +1,3 @@
-## Chapter Summaries
-
 ### First Things (Chapters 1-2)
 
 • Chapter 1: Reading Your Bible Again - for the First Time

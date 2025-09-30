@@ -1,5 +1,3 @@
-## Chapter Summaries
-
 -   **Chapter 1: Holy Ground (Pray as You Can)**  
      Staton recounts a childhood experiment of praying daily for friends, noting how ordinary places became “holy ground” when approached in faith. He identifies common fears - appearing naive, surrendering silence, wrong motives - and invites readers simply to speak as they can, assuring them that candid, unpolished prayers matter more than polished words.
 -   **Chapter 2: Embodied Stillness (Pray with Your Body)**  
