@@ -208,24 +208,21 @@ class ClippingsReader:
             self._make_markdown(title_author, clippings)
 
     def __get_summary(self, title_author):
-        summary_file = Path("summaries") / f"{title_author}.md"
-        if not summary_file.exists():
-            self.summaries_by_title_author.setdefault(title_author, None)
+        summary_folder = Path("summaries") / f"{title_author}"
+        self.summaries_by_title_author.setdefault(title_author, {})
+        if not summary_folder.exists():
             return
-        self.summaries_by_title_author.setdefault(
-            title_author, summary_file.read_text()
-        )
+        for summary_file in summary_folder.glob("*.md"):
+            self.summaries_by_title_author[title_author][
+                summary_file.stem
+            ] = summary_file.read_text()
 
     def __make_options(self, title_author, clippings):
-        breaker = """---
-
-## Chapter Summaries"""
         options = {"clippings": clippings}
         summary = self.summaries_by_title_author[title_author]
         if summary:
-            overview, chapters = summary.split(breaker)
-            options["overview"] = overview
-            options["chapters"] = "## Chapter Summaries" + chapters
+            for key, value in summary.items():
+                options[key] = value
         return options
 
     def _make_markdown(self, title_author, clippings):

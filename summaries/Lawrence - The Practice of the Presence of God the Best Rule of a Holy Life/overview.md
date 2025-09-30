@@ -1,0 +1,3 @@
+# Overview
+
+A 17th-century Carmelite monk, Brother Lawrence, shows how the simplest tasks - cooking, washing dishes, even trudging through pain - can become continual acts of divine worship when carried out in conscious communion with God. Through four informal conversations and seventeen practical letters, he strips away complicated rituals in favour of a single rule for a holy life: live every moment in the awareness of God’s presence.

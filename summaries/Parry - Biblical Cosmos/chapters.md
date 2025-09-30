@@ -1,11 +1,3 @@
-# Overview
-
-The Biblical Cosmos invites readers to journey through the world as the ancient authors of Scripture perceived it, showing that the biblical writers shared the flat-earth and dome-sky cosmologies of their Near Eastern neighbours. Robin A. Parry unpacks this “weird and wonderful” worldview in four parts, tracing how each zone of earth, sea, underworld, heavens and temple functioned as theological theatre in which God enacted creation, judgment and redemption.
-
-Rather than dismiss the Bible’s ancient cosmology as mere superstition, Parry argues it remains a rich resource for modern faith. He moves from a descriptive tour of first-century cosmological assumptions to reflections on what they mean for contemporary believers - addressing issues such as the ascension of Christ, the relationship of science and faith, and a revived Christian Platonism that honours God as the essence of all things.
-
----
-
 ## Chapter Summaries
 
 ### Part 1: Ancient Worldviews

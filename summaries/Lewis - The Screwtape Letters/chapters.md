@@ -1,9 +1,3 @@
-# Overview
-
-The Screwtape Letters is a satirical Christian apologetic novel by C. S. Lewis, first published in 1942, written as 31 letters from a senior devil, Screwtape, to his nephew Wormwood, a novice tempter. Through their correspondence, Lewis explores the subtleties of temptation, the corrupting influence of pride and materialism, and the discipline required for spiritual vigilance.
-
----
-
 ## Chapter Summaries
 
 - Preface: Lewis claims to have discovered Screwtape’s letters but refuses to explain their provenance, warning readers that they present a devil’s perspective and should not be taken at face value.
