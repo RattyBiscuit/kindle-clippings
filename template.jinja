@@ -2,8 +2,11 @@
 
 ## Kindle Highlights
 
-{% for clipping in clippings %}{{ clipping.text }}
-<div style="text-align: right"><i>{% if clipping.page %}Page {{clipping.page}} ({% endif %}Location {{clipping.start_location}}-{{clipping.end_location}}{% if clipping.page %}){% endif %}</i></div>{% if not loop.last %}
+{% for clipping in clippings %}*{% if clipping.page %}Page {{clipping.page}} ({% endif %}Location {{clipping.start_location}}-{{clipping.end_location}}{% if clipping.page %}){% endif %}*
+
+> {{ clipping.text }}
+
+{% if not loop.last %}
 
 ---
 
@@ -11,3 +14,9 @@
 
 
 {{ chapters }}
+
+
+
+
+> The proper context for interpreting the Bible is the context of the biblical writers-the context that produced the Bible.1 Every other context is alien to the biblical writers and, therefore, to the Bible. Yet there is a pervasive tendency in the believing Church to filter the Bible through creeds, confessions, and denominational preferences.
+> *Page 16 (Location 204-208)*
