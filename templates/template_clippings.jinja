@@ -1,20 +1,7 @@
-# Overview
-
-{{overview}}
-
-## Kindle Highlights
-
 {% for clipping in clippings %}*{% if clipping.page %}Page {{clipping.page}} ({% endif %}Location {{clipping.start_location}}-{{clipping.end_location}}{% if clipping.page %}){% endif %}*
 
 > {{ clipping.text }}
-
 {% if not loop.last %}
-
 ---
 
 {% endif %}{% endfor %}
-
-
-## Chapter Summaries
-
-{{ chapters }}
