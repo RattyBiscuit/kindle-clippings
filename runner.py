@@ -53,7 +53,7 @@ class PandaClipping(Clipping):
 
 
 class ClippingsReader:
-    def __init__(self, clippings_file_path: str = "My Clippings.txt"):
+    def __init__(self, clippings_file_path: str = "clippings_files/My Clippings.txt"):
         self._clippings_file_path = clippings_file_path
         self.clippings = Clippings()
         self.clippings_by_title_author = {}
@@ -68,8 +68,17 @@ class ClippingsReader:
                 "text",
             ]
         )
+        self._load_templates()
         self._load_settings()
         self._load_clippings_file()
+
+    def _load_templates(self):
+        self.templates = {}
+        template_dir = Path("templates")
+        for template in template_dir.glob("template_*.jinja"):
+            name = template.stem.split("_")[1]
+            text = template.read_text()
+            self.templates[name] = text
 
     def _load_settings(self):
         """
@@ -201,11 +210,20 @@ class ClippingsReader:
             self.clippings_by_title_author[clipping.title_author].append(clipping)
 
     def make_markdown(self):
-        with open("template.jinja") as f:
-            self.template = jinja2.Template(f.read())
         for title_author, clippings in self.clippings_by_title_author.items():
             self.__get_summary(title_author)
-            self._make_markdown(title_author, clippings)
+            self.__make_clippings(title_author, clippings)
+            self._make_markdown(title_author)
+
+    def __make_clippings(self, title_author, clippings):
+        options = {"clippings": clippings}
+        output_folder = Path("summaries") / title_author
+        output_file = output_folder / "clippings.md"
+        if output_file.exists():
+            output_file.unlink()
+        with open(output_file, "w") as f:
+            template = jinja2.Template(self.templates["clippings"])
+            f.write(template.render(options))
 
     def __get_summary(self, title_author):
         summary_folder = Path("summaries") / f"{title_author}"
@@ -217,23 +235,24 @@ class ClippingsReader:
                 summary_file.stem
             ] = summary_file.read_text()
 
-    def __make_options(self, title_author, clippings):
-        options = {"clippings": clippings}
+    def __make_options(self, title_author):
+        options = {}
         summary = self.summaries_by_title_author[title_author]
         if summary:
             for key, value in summary.items():
                 options[key] = value
         return options
 
-    def _make_markdown(self, title_author, clippings):
+    def _make_markdown(self, title_author):
         clips = []
         output_folder = Path("/mnt/c/Users/Alan/Obsidian/BibleNotes")
         if not output_folder.is_dir():
             output_folder = Path("/home/alan/git/BibleNotes")
         output_file = output_folder / "Book Summaries" / f"{title_author}.md"
 
-        options = self.__make_options(title_author, clippings)
-        output_file.write_text(self.template.render(options))
+        options = self.__make_options(title_author)
+        template = jinja2.Template(self.templates["output"])
+        output_file.write_text(template.render(options))
         return clips
 
 
