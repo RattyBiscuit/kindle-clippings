@@ -28,12 +28,6 @@
 
 ---
 
-*Location 1384-1388*
-
-> God's use of serpent symbolism for healing was appropriate for other reasons. Israelites, like other Semitic peoples, associated serpents with life and healing. Snakes were thought to have regenerative healing powers because they shed their skin. Serpent images were a common motif in ancient Near Eastern art. Storage jars often included serpent imagery-perhaps to ward off theft or spoilage. The Greek god of healing, Asclepius, was depicted as a snake. The rod of Asclepius, a staff entwined by a snake, is still a symbol for medicine and healing today. Here, Yahweh uses this imagery to proclaim His sovereignty over other gods.
-
----
-
 *Location 1928-1932*
 
 > We're most familiar with prophecies directly from the mouth of a prophet. But a "type" is an unspoken prophecy; it is an event, person, or institution that foreshadows something that will come. For example, Paul tells us that Adam was a type of Christ. He foreshadowed or echoed something about Jesus, namely that His work on the cross would affect all people just as Adam's disobedience had a global effect (Rom 5:14).

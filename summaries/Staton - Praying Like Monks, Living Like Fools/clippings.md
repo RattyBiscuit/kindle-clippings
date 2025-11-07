@@ -16,12 +16,6 @@
 
 ---
 
-*Page 15 (Location 293-293)*
-
-> Prayer means the risk of facing silence where we're addicted to noise. Prayer means the risk of facing silence where we're addicted to noise. It's the risk of facing a God we've mastered talking about, singing about, reading about, and learning about. It means risking real interaction with that God, and the longer we've gotten used to settling for the noise around God, the higher the stakes.
-
----
-
 *Page 17 (Location 324-327)*
 
 > Jesus once wisely said that we'll know a tree by its fruit.6 So what's the fruit of that story of self-sufficiency in the life of the modern person? We're overwhelmed. Everyone I meet is drowning in "their thing." It doesn't matter if "your thing" is an artistic endeavor, profit margins, wining and dining clients, or raising children. We can't see past "our thing" because "our thing" (whatever it happens to be) is all-consuming.
@@ -127,12 +121,6 @@
 *Page 80 (Location 1195-1201)*
 
 > Here is the source of his empathy: "[Jesus] has been tempted in every way, just as we are-yet he did not sin."17 Jesus is a healer, yes, but he's the kind of doctor who has dealt with the same disease. He's a doctor treating lung cancer who also had lung cancer, felt the effects, and even donated one of his lungs for a transplant, so you're talking to a doctor with experiential compassion for what you're going through and a wounded body from a battle with the same symptoms. Don't you see the profound difference in that healer? The care, sincere concern, and unhurried presence of that doctor compared to the one who just dishes out prescriptions?
-
----
-
-*Page 80 (Location 1196-1201)*
-
-> Jesus] has been tempted in every way, just as we are-yet he did not sin."17 Jesus is a healer, yes, but he's the kind of doctor who has dealt with the same disease. He's a doctor treating lung cancer who also had lung cancer, felt the effects, and even donated one of his lungs for a transplant, so you're talking to a doctor with experiential compassion for what you're going through and a wounded body from a battle with the same symptoms. Don't you see the profound difference in that healer? The care, sincere concern, and unhurried presence of that doctor compared to the one who just dishes out prescriptions?
 
 ---
 

@@ -4,12 +4,6 @@
 
 ---
 
-*Page 17 (Location 167-171)*
-
-> A lot of what Christians imagine to be true about the unseen world isn't. Angels don't have wings. (Cherubim don't count because they are never called angels and are creaturely. Angels are always in human form.) Demons don't sport horns and a tail, and they aren't here to make us sin (we do that just fine on our own). And while the Bible describes demonic possession in rightfully awful ways, intelligent evil has more sinister things to do than make sock puppets out of people. And on top of that, angels and demons are minor players. Church never seems to get to the big boys and their agenda.
-
----
-
 *Page 20 (Location 214-218)*
 
 > In Daniel 4, Nebuchadnezzar, the king of Babylon, was punished by God with temporary insanity. That sentence was handed down by "the decree of the Most High" (Dan. 4:24) and "the decree of the watchers" (Dan. 4:17). Watchers was a term used for divine beings of God's council. It referred to how they were ever watchful over the affairs of humanity; they never slept.

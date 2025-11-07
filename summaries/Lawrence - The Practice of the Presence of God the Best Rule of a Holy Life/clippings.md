@@ -28,12 +28,6 @@
 
 ---
 
-*Page 15 (Location 116-117)*
-
-> That the most excellent method he had found of going to GOD, was that of doing our common business without any view of pleasing men,[1] and (as far as we are capable) purely for the love of GOD. That it was a great delusion to think that the times of prayer ought to differ from other times: that we are as strictly obliged to adhere to GOD by action in the time of action, as by prayer in the season That it was a great delusion to think that the times of prayer ought to differ from other times: that we are as strictly obliged to adhere to GOD by action in the time of action, as by prayer in the season of prayer.
-
----
-
 *Page 15 (Location 123-124)*
 
 > That we ought not to be weary of doing little things for the love of GOD, who regards not the greatness of the work, but the love with which it is performed.

@@ -16,12 +16,6 @@
 
 ---
 
-*Page 51 (Location 856-857)*
-
-> The distinction helps us see that the original task of humanity was to make the entire Earth like Eden.
-
----
-
 *Page 64 (Location 1125-1126)*
 
 > clearly establishes that divine foreknowledge does not necessitate divine predestination.

@@ -115,6 +115,7 @@ class ClippingsReader:
         df = self.df.copy()
         df = self.__concat_clippings(df)
         df = self.__drop_where_start_matches(df)
+        df = self.__drop_when_fully_contained(df)
 
         self.df = df
         self.__add_clippings_to_dict()
@@ -185,6 +186,22 @@ class ClippingsReader:
         # Use the indices to get the corresponding rows
         latest_rows = df.loc[idx].reset_index(drop=True)
         return latest_rows
+
+    def __drop_when_fully_contained(self, df):
+
+        def __in_row(df, row):
+            contained = df[
+                (df["index"] != row["index"])
+                & (df["title_author"] == row["title_author"])
+                & (df["start_location"] <= row["start_location"])
+                & (df["end_location"] >= row["end_location"])
+            ]
+            return contained.shape[0]
+
+        df["contained"] = df.apply(lambda x: __in_row(df, x), axis=1)
+        df = df[df["contained"] == 0].reset_index(drop=True)
+        df.drop(columns=["contained"], inplace=True)
+        return df
 
     def __add_clippings_to_dict(self):
         for clippings in self.df.to_dict("records"):
