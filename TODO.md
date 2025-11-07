@@ -1,3 +1,4 @@
 -   [x] When start locations match, but end does not, choose the later (e.g. 102-104)
 -   [x] When the end location matches the start of the next, concatenate them (e.g. 249-253 and 253-254)
 -   [x] First record is dropping the text and replacing with a NaN
+-   [ ] Highlights are fully contained (e.g. 165-171 and 167-171 in Supernatural)
