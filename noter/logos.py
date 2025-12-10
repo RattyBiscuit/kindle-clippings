@@ -4,6 +4,7 @@ import sqlite3
 from pathlib import Path
 
 import lxml.etree as etree
+from bible_numbers import get_book_ids
 
 logos_notes_dir = Path("~").expanduser() / "LogosDocs" / "NotesToolManager"
 shutil.copy(str(logos_notes_dir / "notestool.db"), "notes.db")
@@ -62,6 +63,8 @@ class ConvertLogosXML:
         self.markdown = "\n".join(lines[:-1]).strip()
 
 
+book_ids = get_book_ids()
+
 for row in cur.execute(
     """
 SELECT
@@ -75,20 +78,31 @@ WHERE
     Notes."IsDeleted" = 0
     AND Notes."IsTrashed" = 0
     AND "Title" = 'Commentary Quotes'
-    AND LOWER("FoldedContent") like LOWER('%craftiness%')
+    --AND LOWER("FoldedContent") like LOWER('%craftiness%')
 ORDER BY
     Notes."CreatedDate" ASC; """
 ):
 
     converted = ConvertLogosXML(row["ContentRichText"])
+    row["source"] = converted.source
+    row["markdown"] = converted.markdown
     print(converted.source)
     print(converted.markdown)
     bible_refs = [
-        _["reference"]["raw"]
+        _["reference"]["raw"].split(".", 1)[1]
         for _ in json.loads(row["AnchorsJson"])
         if "reference" in _
     ]
-    print(bible_refs)
+    if bible_refs:
+        ref = bible_refs[0].split("-")[0]
+        book_id, chapter, verse = ref.split(".")
+        book_id, chapter, verse = int(book_id), int(chapter), int(verse)
+        book = book_ids[book_id]
+        reference = f"{book} {chapter}:{verse}"
+        row["book_id"] = book_id
+        row["chapter"] = chapter
+        row["verse"] = verse
+        row["reference"] = reference
 
 
 """
