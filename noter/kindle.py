@@ -53,7 +53,10 @@ class PandaClipping(Clipping):
 
 
 class ClippingsReader:
-    def __init__(self, clippings_file_path: str = "clippings_files/My Clippings.txt"):
+    def __init__(
+        self,
+        clippings_file_path: str = "clippings_files/My Clippings.txt",
+    ):
         self._clippings_file_path = clippings_file_path
         self.clippings = Clippings()
         self.clippings_by_title_author = {}
@@ -106,9 +109,12 @@ class ClippingsReader:
         """
         Parse raw clippings from a file and store them in the Clippings object.
 
-        This function iterates over each raw clipping, creates a Clipping object from it,
-        and then checks if the clipping should be dropped according to the settings.
-        If the clipping should not be dropped, it is added to the Clippings object.
+        This function iterates over each raw clipping,
+            creates a Clipping object from it,
+        and then checks if the clipping should be dropped
+            according to the settings.
+        If the clipping should not be dropped, it is added
+            to the Clippings object.
         """
         clippings_for_df = self.__filter_raw_clippings()
         self.df = pd.DataFrame(clippings_for_df)
@@ -140,9 +146,9 @@ class ClippingsReader:
         if records_to_merge.empty:
             return df
         df["text"] = df.apply(self.__merge_text, axis=1)
-        indices_to_drop = records_to_merge["next_index"].dropna().astype(int).tolist()
+        indices_to_drop = records_to_merge["next_index"].dropna().astype(int)
 
-        df = df[~(df["index"].isin(indices_to_drop))]
+        df = df[~(df["index"].isin(indices_to_drop.tolist()))]
         return self.__concat_clippings(df)
 
     def __merge_text(self, row):
@@ -212,19 +218,23 @@ class ClippingsReader:
         """
         Group clippings by title and author.
 
-        This function takes the clippings parsed from the file and groups them by title and author.
-        It first sorts the clippings by date and then iterates over each clipping, adding it to
-        the self.clippings_by_title_author dictionary. If the title and author are not already in the
-        dictionary, it adds them and creates a new list for the clippings. If the title and author are
-        already in the dictionary, it simply appends the clipping to the existing list.
+        This function takes the clippings parsed from the file and groups them
+            by title and author.
+        It first sorts the clippings by date and then iterates over each
+            clipping, adding it to the self.clippings_by_title_author dict.
+        If the title and author are not already in the dictionary, it adds
+            them and creates a new list for the clippings.
+        If the title and author are already in the dictionary, it simply
+            appends the clipping to the existing list.
         """
         clippings = sorted(
             self.clippings.clippings,
             key=lambda c: (c.start_location, pd.to_datetime(c.date)),
         )
         for clipping in clippings:
-            self.clippings_by_title_author.setdefault(clipping.title_author, [])
-            self.clippings_by_title_author[clipping.title_author].append(clipping)
+            title_author = clipping.title_author
+            self.clippings_by_title_author.setdefault(title_author, [])
+            self.clippings_by_title_author[title_author].append(clipping)
 
     def make_markdown(self):
         for title_author, clippings in self.clippings_by_title_author.items():
