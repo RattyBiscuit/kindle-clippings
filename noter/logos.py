@@ -1,3 +1,4 @@
+import json
 import shutil
 import sqlite3
 from pathlib import Path
@@ -18,14 +19,6 @@ def dict_factory(cursor, row):
 con = sqlite3.connect("notes.db")
 con.row_factory = dict_factory
 cur = con.cursor()
-
-
-# execute a query and iterate over the result
-# for row in cur.execute(
-#     """SELECT * FROM Notebooks WHERE "Title" = 'Commentary Quotes'; """
-# ):
-#     print(row)
-#     1
 
 
 class ConvertLogosXML:
@@ -61,20 +54,20 @@ class ConvertLogosXML:
                 if is_bold:
                     text = f"**{text}**"
                 if is_super:
-                    text = f"<sup>{text}</sup>"
+                    continue
                 if is_link:
                     text = f"[{text}]({parent.get('Uri')})"
                 line += text
             lines.append(line)
-        self.markdown = "\n".join(lines)
+        self.markdown = "\n".join(lines[:-1]).strip()
 
 
 for row in cur.execute(
     """
 SELECT
     Notes."CreatedDate",
-    "ContentRichText"
-
+    "ContentRichText",
+    *
 FROM
     Notes
 INNER JOIN Notebooks ON ("NotebookExternalId" = "Notebooks"."ExternalId")
@@ -82,15 +75,32 @@ WHERE
     Notes."IsDeleted" = 0
     AND Notes."IsTrashed" = 0
     AND "Title" = 'Commentary Quotes'
-    --AND LOWER("FoldedContent") like LOWER('%craftiness%')
+    AND LOWER("FoldedContent") like LOWER('%craftiness%')
 ORDER BY
     Notes."CreatedDate" ASC; """
 ):
 
-    for k, v in row.items():
-        if k == "ContentRichText":
-            converted = ConvertLogosXML(v)
-            v = converted.markdown
-        print("\n\n", converted.source, "\n\n", v)
+    converted = ConvertLogosXML(row["ContentRichText"])
+    print(converted.source)
+    print(converted.markdown)
+    bible_refs = [
+        _["reference"]["raw"]
+        for _ in json.loads(row["AnchorsJson"])
+        if "reference" in _
+    ]
+    print(bible_refs)
 
-    # print("")
+
+"""
+
+*Page 117 (Location 1588-1592)*
+
+> A third ...
+
+---
+
+*Page 119 (Location 1625-1627)*
+
+> ABC ...
+
+"""
