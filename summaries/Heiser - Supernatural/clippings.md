@@ -79,3 +79,81 @@
 *Page 83 (Location 1111-1114)*
 
 > Intelligent evil-Satan, demons, the lesser gods who rule the nations-do not know everything. They do not have the mind of God, nor can they penetrate it. We tend to presume that because they are supernatural they are all-knowing. Not true. There is only one omniscient being-God. And he happens to be on our side.
+
+---
+
+*Page 93 (Location 1242-1246)*
+
+> Our task is to imitate Jesus. We can, like him, care for both body and soul of our fellow imagers, leading them to faith in the King and strengthening their resolve to be loyal to him. It doesn't necessarily take supernatural power to "bind up the brokenhearted" and "proclaim liberty to the captives" in the steps of the messiah (Isa. 61:1), but these are supernatural acts at the core. They demand resistance to darkness and strategic vision. No act of kindness will fail to be used by the Spirit to direct someone's heart. No articulation of the gospel will be fruitless.
+
+---
+
+*Page 93 (Location 1249-1252)*
+
+> We are "already but not yet" co-rulers with him (Col. 3:1; 2 Tim. 2:12; Rev. 2:26; 3:21). The gates of hell will not withstand the progression and completion of the Church as God's kingdom on earth. The decision to participate in the great reversal is ours.
+
+---
+
+*Page 96 (Location 1284-1288)*
+
+> Because everywhere else that description occurs in the Old Testament, it was used only of God himself (Isa. 19:1; Deut. 33:26; Ps. 68:32-33; Ps. 104:1-4). But in Daniel 7, God was already in the scene as the Ancient of Days. It's as if, in his vision, Daniel sees a "second God" who is also a man-something like the way Christians believe in God as more than one person.
+
+---
+
+*Page 97 (Location 1304-1305)*
+
+> Psalm 22, well-known for how it describes the physical effects of crucifixion through the words of David, gives us a glimpse of horrors unseen at the cross.
+
+---
+
+*Page 100 (Location 1361-1367)*
+
+> Satan was expelled from God's presence when the kingdom began on earth (Luke 10:18). God would have no more of his accusations against believers. He had no more right to our souls. Why, then, do we live as though he does? Salvation is not gained by moral perfection. It is a gift that comes by grace, through faith (Eph. 2:8-9). That in turn means salvation cannot be lost by moral imperfection. What is not at all gained by performance cannot be lost by poor performance. Salvation is about believing loyalty-trusting what Jesus did to defeat Satan's claim and turning from all other gods and the belief systems of which they are a part.
+
+---
+
+*Page 107 (Location 1456-1459)*
+
+> If we are instruments of God in the same way Paul was an instrument of God, then why was he so much more influential and effective? One difference is that Paul understood what his life was about. He believed the powers that had dominion over the earth were real-and that the power behind and within him was greater.
+
+---
+
+*Page 107 (Location 1463-1465)*
+
+> do. If we want God only so he will come to us to meet our needs, then we're more like the people at Babel than we are like Jesus, the Twelve, and Paul.
+
+---
+
+*Page 108 (Location 1472-1475)*
+
+> What if, each day, our lives were organized around our knowledge of our status as part of God's family, tasked with delivering siblings from darkness? What if we lived intentionally, knowing that each decision we make and each word we speak isn't randomly purposeless? What if, instead, we believed unseen intelligences all around us use our decisions, our actions, our words to influence other people-for good or evil-whether or not we see or know them?
+
+---
+
+*Page 108 (Location 1476-1477)*
+
+> We cannot see the supernatural world-nor can we see the microscopic world-but we're inextricably part of both.
+
+---
+
+*Page 109 (Location 1480-1481)*
+
+> They believed the spiritual conflict was real and that, ultimately, they couldn't lose. We're living proof that they didn't.
+
+---
+
+*Page 115 (Location 1569-1572)*
+
+> That's what Peter is getting at in 1 Peter 3. In essence, baptism was a loyalty oath and a message to the demonic powers (as well as any people present) of just whose side you were on in the spiritual war. Ancient Christians understood this better than we do today. Early church baptismal rites included a renunciation of Satan and his angels because of this passage.
+
+---
+
+*Page 117 (Location 1588-1592)*
+
+> A third implication of what we've discussed in this chapter is that the powers of darkness know whose side we are on by our behavior. They are not stupid. They see our loyalty to God, and they see us act on our decisions to follow Jesus through things like baptism and resistance to sin. But they also see us when we act disloyally to God, and they understand what vulnerability that introduces into our lives. Whether or not we believe it, we are being watched-by both sides of the spiritual war.
+
+---
+
+*Page 119 (Location 1625-1627)*
+
+> Israelites referred to the people of the disinherited nations by many terms. There were geographical or ethnic labels (e.g., Egyptians, Moabites, Amalekites), but the comprehensive description in New Testament times was Gentile, a label that comes from the Latin word for "nations" (gens). If you aren't Jewish, you're a Gentile.
