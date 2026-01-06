@@ -157,3 +157,39 @@
 *Page 119 (Location 1625-1627)*
 
 > Israelites referred to the people of the disinherited nations by many terms. There were geographical or ethnic labels (e.g., Egyptians, Moabites, Amalekites), but the comprehensive description in New Testament times was Gentile, a label that comes from the Latin word for "nations" (gens). If you aren't Jewish, you're a Gentile.
+
+---
+
+*Page 123 (Location 1679-1683)*
+
+> Rather than feel guilty about how much we aren't like Jesus, and pledge in our hearts to "do better," we need to let the blessing of what he did, and will do, rewire the way we think about being like him. We can turn Christlikeness into a task we must perform lest God be angry with us, but that's bad theology. It turns grace into duty. Or we can be grateful that one day we will be what God is thrilled to make us-what he predestined us to be (Rom. 8:29)-and live in such a way that people enslaved to dark powers will want to join us in God's family.
+
+---
+
+*Page 123 (Location 1685-1689)*
+
+> The Christian life is really about grasping two concepts: our adoption into God's family-which means Jesus is our brother, and that God loves us like he loves Jesus-and our purpose in God's plan to restore his kingdom on earth. We are, and will be, God's new divine council. He is our Father. We are his children, destined to live where he lives forever. We are his coworkers, tasked with helping him release those still owned by the lord of the dead and held captive by unseen powers of darkness.
+
+---
+
+*Page 124 (Location 1690-1691)*
+
+> Your life now is not about earning your place in God's family. That cannot be earned. It's a gift. Your life now is showing appreciation for your adoption, enjoying it, and getting others to share it with you.
+
+---
+
+*Page 126 (Location 1709-1712)*
+
+> Predestination and freedom work hand-in-hand in God's kingdom rule. His purposes will never be overturned or halted. He is able to take sin and rebellion and still accomplish-through other free representatives-what he desires. As C. S. Lewis once said of God (in the book Perelandra), "Whatever you do, He will make good of it. But not the good He had prepared for you if you had obeyed him."
+
+---
+
+*Page 132 (Location 1790-1794)*
+
+> Once we realize the gods of the Old Testament are real, then the meaning of God's command to have no other god before Yahweh, the God of Israel, comes into focus. The command isn't about not giving attention to money or boats or cars. It's about God's jealous love for his people. In other words, the command actually means what it says. The insanity of loyalty to any god other than the God of all gods is hard to miss.
+
+---
+
+*Page 133 (Location 1801-1811)*
+
+> Embracing the supernatural reality of the spiritual world of the Bible is essential for understanding the Bible. It explains why, as the Old Testament moves forward, the sin of idolatry will not just be like any other sin. It will be the sin. Israel was created to be loyal to God; when she turned to other gods instead, she was sent into exile, cast off like the other nations. This is a central reason why salvation in the Bible is always described in terms of faith. God is not ultimately looking for better behavior. He is looking for faith-for believing loyalty. When we choose to align our hearts with the God of gods, he will save us. When we choose another, we are sowing what we will one day reap. For us today, believing loyalty means embracing what Jesus did on the cross, because he was God in flesh. Our ethics and behavior (our works) aren't about becoming loyal enough for God to embrace us. We follow his commands because we've already chosen him. And his commands will lead to our happiness and contentment because they steer us away from the destruction of self and others. They provide a glimpse of life in harmony with God and the rest of his family-our family-seen and unseen, in his kingdom, the new Eden.

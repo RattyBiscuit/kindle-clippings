@@ -13,11 +13,23 @@
         "The Hobbit: The Classic Bestselling Fantasy Novel": "Tolkien - The Hobbit",
         "Christian Origins 1 - The New Testiment and the People of God - N. T. Wright (1992) (N. T. Wright)": "Wright - Christian Origins 1 - The New Testament and the People of God",
         "Wild at Heart Revised and   Updated: Discovering the Secret of a Man's Soul (Eldredge, John)": "Eldredge - Wild at Heart",
-        "The Screwtape Letters: Letters from a Senior to a Junior Devil (Lewis, C. S.)": "Lewis - The Screwtape Letters"
+        "The Screwtape Letters: Letters from a Senior to a Junior Devil (Lewis, C. S.)": "Lewis - The Screwtape Letters",
+        "The Temple Its Ministry and Services (Alfred Edersheim)": "Edersheim - The Temple Its Ministry and Services",
+        "Salvation by Allegiance Alone: Rethinking Faith, Works, and the Gospel of Jesus the King (Bates, Matthew W.)": "Bates - Salvation by Allegiance Alone"
     },
     "drops": {
-        "Alter - The Hebrew Bible": [{ "start": 92258, "end": 92259 }],
-        "Tolkien - The Hobbit": [{ "start": 3765, "end": 3766 }],
+        "Alter - The Hebrew Bible": [
+            {
+                "start": 92258,
+                "end": 92259
+            }
+        ],
+        "Tolkien - The Hobbit": [
+            {
+                "start": 3765,
+                "end": 3766
+            }
+        ],
         "Galli - 131 Christians Everyone Should Know": true
     }
 }
