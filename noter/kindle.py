@@ -1,4 +1,5 @@
 import json
+import sys
 from pathlib import Path
 
 import dateutil.parser
@@ -6,6 +7,17 @@ import jinja2
 import pandas as pd
 from anyascii import anyascii
 from clippy import Clipping, Clippings
+
+
+def ask_user(message, default="N"):
+    options = ["Y", "N"]
+    assert default.strip().upper() in options
+    result = False
+    default_message = "Y/[N]" if default == "N" else "[Y]/N"
+    while result not in options:
+        result = input(f"{message} {default_message} ")
+        result = result.upper().strip() if result.strip() else default
+    return result == "Y"
 
 
 class Clipping(Clipping):
@@ -18,6 +30,13 @@ class Clipping(Clipping):
 
     def _get_title_author(self, split_line):
         title_author = super()._get_title_author(split_line)
+        if not (title_author in self.settings["renames"]):
+            print(f"\nWARNING: Book Rename not present for '{title_author}'")
+            if ask_user("\tShould I create it for you?", default="Y"):
+                author = input("\tAuthor: ")
+                title = input("\tTitle:  ")
+                new_title_author = f"{author} - {title}"
+                self.settings["renames"][title_author] = new_title_author
         return self.settings["renames"].get(title_author, title_author)
 
     def _get_date_added(self, split_line):
@@ -90,6 +109,13 @@ class ClippingsReader:
         with open("settings.json") as file:
             self.settings = json.load(file)
 
+    def _write_settings(self):
+        """
+        Write settings to a JSON file.
+        """
+        with open("settings.json", "w") as file:
+            file.write(json.dumps(self.settings, indent=4))
+
     def _load_clippings_file(self):
         """
         Load raw clippings from a file.
@@ -104,6 +130,7 @@ class ClippingsReader:
         """
         self.__parse_clippings()
         self.__group_clippings()
+        self._write_settings()  # save any updates to the settings file to disk
 
     def __parse_clippings(self):
         """
@@ -245,6 +272,12 @@ class ClippingsReader:
     def __make_clippings(self, title_author, clippings):
         options = {"clippings": clippings}
         output_folder = Path("summaries") / title_author
+        if not output_folder.exists():
+            print(f"ERROR: Folder does not exist: {output_folder}")
+            if ask_user("Should I create it for you?", default="Y"):
+                output_folder.mkdir(exist_ok=True)
+            else:
+                sys.exit("Unable to continue without required folders.")
         output_file = output_folder / "clippings.md"
         if output_file.exists():
             output_file.unlink()
