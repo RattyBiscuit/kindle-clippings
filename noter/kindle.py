@@ -75,8 +75,10 @@ class ClippingsReader:
     def __init__(
         self,
         clippings_file_path: str = "clippings_files/My Clippings.txt",
+        clippings_old_files_glob: str = "My Clippings OLD_*.txt",  # noqa
     ):
         self._clippings_file_path = clippings_file_path
+        self._clippings_old_files_glob = clippings_old_files_glob
         self.clippings = Clippings()
         self.clippings_by_title_author = {}
         self.summaries_by_title_author = {}
@@ -120,9 +122,17 @@ class ClippingsReader:
         """
         Load raw clippings from a file.
         """
-        with open(self._clippings_file_path, "r", encoding="utf-8") as file:
-            raw_clippings_data = file.read()
-            self._raw_clippings = raw_clippings_data.split("==========")
+        self._raw_clippings = []
+        files = [self._clippings_file_path]
+        for file in Path(self._clippings_file_path).parent.glob(
+            self._clippings_old_files_glob
+        ):
+            files.append(file)
+        for file in files:
+            with open(file, "r", encoding="utf-8") as f:
+                raw_clippings_data = f.read()
+                items = raw_clippings_data.split("==========")
+                self._raw_clippings.extend(items)
 
     def parse(self):
         """
