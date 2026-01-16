@@ -60,10 +60,52 @@
 
 *Page 70 (Location 964-969)*
 
-> enemies are fully subjected (1 Cor. 15:20-28; Eph. 1:18-23). The world is genuinely different since Jesus defeated his enemies and started to rule actively. The subjective aspect of this good news is that for it to be personally effective, this saving power must be actualized by pistis-which is part of Paul's point in Romans 1:16-17. So the main idea in Romans 1:16-17 is that the gospel is a transformative story because it reveals "the righteousness of God"-that is, the resurrection-effecting verdict that God rendered over Jesus the king and that resulted in our ability to share his resurrection life as a gift from God.
+> The world is genuinely different since Jesus defeated his enemies and started to rule actively. The subjective aspect of this good news is that for it to be personally effective, this saving power must be actualized by pistis-which is part of Paul's point in Romans 1:16-17. So the main idea in Romans 1:16-17 is that the gospel is a transformative story because it reveals "the righteousness of God"-that is, the resurrection-effecting verdict that God rendered over Jesus the king and that resulted in our ability to share his resurrection life as a gift from God.
 
 ---
 
 *Page 73 (Location 1006-1011)*
 
 > In brief, my proposal is that we can summarize Paul's interpretation by paraphrasing as follows: For I am not ashamed of the gospel, for it is the power of God for salvation for everyone who gives allegiance to Jesus as the Christ, to the Jew first and also to the Greek. For in the gospel the righteousness of God is revealed by means of Jesus's allegiance to God; this righteousness becomes ours through our allegiance to Jesus the king. For both Jesus and us, all of this accords with the prophetic word, "But the righteous one shall live by allegiance." (Rom. 1:16-17)
+
+---
+
+*Page 78 (Location 1073-1080)*
+
+> In fact, a whole nexus of changes that were very much this-worldly were anticipated. As N. T. Wright puts it: "The kingdom of god," historically and theologically considered, is a slogan whose basic meaning is the hope that Israel's god is going to rule Israel (and the whole world), and that Caesar, or Herod, or anyone else of their ilk is not. It means that Torah [the law of Moses] will be fulfilled at last, that the Temple will be rebuilt and the Land cleansed. It does not necessarily mean a holy anarchy. . . . Rather, it means that Israel's god will rule her in the way he intends, through properly appointed persons and means. This will certainly mean (from the point of view of the Pharisees, Essenes, and anyone loosely described as Zealots) a change in the high priesthood. In some writings it also means a Messiah.
+
+---
+
+*Page 81 (Location 1114-1117)*
+
+> The earliest physical manuscripts we possess today indicate that originally the titles of these books, at least as soon as they came to be collected, were not "The Gospel of Matthew," "The Gospel of Mark," but rather "The gospel according to Matthew," "The gospel according to Mark," and so on.
+
+---
+
+*Page 81 (Location 1128-1131)*
+
+> This reinforces the basic point: the gospel proper is not in the first instance a story about human need for salvation but a story about Jesus's career, a career that culminates in his attainment of heavenly authority. The gospel story integrally involves Jesus's death for sins, but that is only part of the story, and the gospel narrative draws our eyes above all to Jesus's kingship.
+
+---
+
+*Page 83 (Location 1144-1150)*
+
+> The Gospel: An Outline Jesus the king 1. preexisted with the Father, 2. took on human flesh, fulfilling God's promises to David, 3. died for sins in accordance with the Scriptures, 4. was buried, 5. was raised on the third day in accordance with the Scriptures, 6. appeared to many, 7. is seated at the right hand of God as Lord, and 8. will come again as judge.
+
+---
+
+*Page 85 (Location 1177-1180)*
+
+> Properly speaking, pistis is not part of the gospel but the fitting response to the gospel. Moreover, our justification is not part of the content of the gospel proper either; only Jesus's justification is, inasmuch as the resurrection is the effect of his being declared righteous. Our justification is a result of the gospel when we are united by pistis to Jesus the atonement-making king.
+
+---
+
+*Page 95 (Location 1343-1346)*
+
+> Jesus states that the Paschal meal itself is about to find fulfillment in the kingdom of God. Jesus hereby indicates that the Passover meal as given in the Old Testament had an end toward which it was aimed within God's purposes, but that this end had not yet been reached prior to Jesus. But this end, Jesus was saying, was soon to be reached.
+
+---
+
+*Page 96 (Location 1362-1364)*
+
+> Not only is the atoning function of the servant explicit in this passage, Gospel texts such as Luke 22:37 (citing Isa. 53:12; cf. Matt. 8:17; John 12:38) make it all but certain that Jesus was remembered as interpreting his mission in terms of the suffering servant of Isaiah.
