@@ -205,3 +205,129 @@
 *Page 143 (Location 2078-2090)*
 
 > Moreover, in Matthew, Jesus himself indicates, in what is perhaps the most terrifying statement in the New Testament, that confessing that he is Lord is not on its own sufficient to secure eternal salvation. Allegiance includes obedient action: Not everyone who says to me, "Lord, Lord," will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven. Many will say to me on that day, "Lord, Lord, did we not prophesy in your name, and cast out demons in your name, and do many powerful deeds in your name?" And then I will declare to them publicly, "I never knew you; depart from me, you workers of lawlessness." (Matt. 7:21-23) The context in which this passage is situated pertains specifically to entering true life ("enter through the narrow gate!"-7:13), a warning against false prophets ("by their fruit you will recognize them!"-7:16), and the necessity of putting Jesus's words into practice ("everyone who hears these words of mine and does them will be like a wise man who built his house on the rock"-7:24). So the point in context is that even those who have confessed Jesus as Lord and who claim (on the basis of their own questionable testimony) to have performed good works in Jesus's name may not have truly enacted fidelity to Jesus as Lord. Notice Jesus calls them "workers of lawlessness," meaning their wicked practices are at issue. Professed allegiance is not sufficient; the allegiance must be realized by genuine, albeit not perfect, obedience. Pistis must be embodied. In fact, because salvation is a bodily journey, it cannot be any other way.
+
+---
+
+*Page 148 (Location 2149-2152)*
+
+> Lest we miss the point, Paul underscores it by using two terms together, the adverb dorean ("as a gift," "without payment") and the noun charis ("grace," "gift"), to stress emphatically the unmerited nature of the gift, saying that through the saving action of the Christ we are "justified by his grace [charis] as a gift [dorean]" (Rom. 3:24).
+
+---
+
+*Page 149 (Location 2166-2170)*
+
+> When the crowds ask Jesus, "What must we do, to be doing the works of God?" Jesus responds quite simply, "This is the work of God, that you pisteuete eis the one whom he has sent" (John 6:28-29). Regardless of how we translate pisteuete eis, whether "believe in" or "trust in," or as I am tempted to translate it, "give allegiance to," there is no doubt that pistis, to whatever degree it constitutes a "work," is required-and this is not felt to preclude grace under the traditional understandings of faith.
+
+---
+
+*Page 149 (Location 2173-2174)*
+
+> The offer of salvation is free, but it absolutely does come with strings attached. Obedient loyalty to the king is required as a condition of acceptance.
+
+---
+
+*Page 151 (Location 2203-2209)*
+
+> The Letter to the Ephesians, for example, combines these ideas in a powerful way when it says that God "chose us in him before the foundation of the world" and that "in love he predestined us for adoption" through Jesus the Christ (1:4-5). In my judgment these verses, and others like them, do prove that God orchestrates all human affairs, seeing both the beginning and the end of matters pertaining to human salvation. Note, however, that the focus is on God's choosing of the church for salvation in advance, not God's choice of individual humans for salvation (let alone for damnation) except inasmuch as they are part of the church.4 In other words, Paul is affirming that his audience (the Ephesians) are part of the one church, and hence that they have been chosen by God before the creation of the world for salvation.
+
+---
+
+*Page 158 (Location 2306-2316)*
+
+> But the conflict is illusory, for Paul himself, that great champion of pistis not works, elsewhere stresses that certain deeds, if they persist without any repentance or modification, will result in our exclusion from the kingdom of God and our destruction: For you may be sure of this, that everyone who is sexually immoral or impure, or who is greedy-that is, an idolater-has no inheritance in the kingdom of the Christ and God. (Eph. 5:5) And again: Now the works of the flesh are evident: sexual immorality, impurity, sensuality, idolatry, sorcery, enmity, strife, jealousy, rages, rivalries, dissensions, divisions, envies, bouts of drunkenness, orgies, and the like. I warn you, as I warned you before, that those who do such things will not inherit the kingdom of God. (Gal. 5:19-21) Failure to "inherit the kingdom of God" certainly sounds like exclusion from eternal life. That eternal life (not merely rewards) is indeed at stake with regard to these matters of performed obedience is made clear as Paul continues in Galatians: "For the one who sows to his own flesh will from the flesh reap destruction [phthoran], but the one who sows to the Spirit will from the Spirit reap eternal life" (6:8).
+
+---
+
+*Page 172 (Location 2522-2527)*
+
+> Paul views the by-pistis path (the allegiance path) as fundamentally different than the by-works-of-law path, even though both avenues equally demand good works for final salvation. One path succeeds through Holy Spirit-infused union with Jesus the Messiah; the other fails. Good deeds are required for salvation even though (apart from allegiance to Jesus the king) they are not on their own in the least bit meritorious. Nor can the good deeds necessary for salvation be enumerated or definitively prescribed as part of a salvation system without running afoul of Paul's teaching here. Pistis alone counts-loyalty to Jesus that is pragmatically expressed in obedient and willing service to him as the king.
+
+---
+
+*Page 173 (Location 2533-2537)*
+
+> I am making precisely the same claim, that we are saved by pistis alone, but that many contemporary understandings of "faith" dangerously and illegitimately shade out the loyalty-demanding portion of pistis. I am also suggesting that all too frequently the object toward which pistis is directed in contemporary Christianity (and also in much Reformation-era Christianity) is blurry, inasmuch as it centers on Jesus as a sin offering rather than as the fidelity-demanding king.
+
+---
+
+*Page 190 (Location 2753-2758)*
+
+> For example, when the Christ returns as a historical event, should we expect him to appear on an actual white horse, with a sword literally extending from his mouth (Rev. 19:11-15)? It doesn't seem likely. As Saint Augustine helpfully reminds us, the Scriptures "are in the habit of making something like children's toys out of the things that occur in creation, by which to entice our sickly gaze and get us step by step to seek as best we can the things that are above and forsake the things that are below."4 With the sword extending from Jesus's mouth, it is more plausible that we are dealing with a metaphor designed to point us to a higher reality-
+
+---
+
+*Page 219 (Location 3163-3167)*
+
+> In the incarnation, Jesus comes to us as the genuinely human one, the fulfillment of God's intentions for what it means to be most completely human. The stunning mystery of what it means to be a flourishing human is this: to be fully human doesn't mean to be the opposite of God; it means to fully image God, to reflect and represent God flawlessly in God's entirety, glory, and splendor.
+
+---
+
+*Page 221 (Location 3192-3195)*
+
+> Secondarily, however, in criticism of the Greco-Roman tradition but in continuity with the Jewish, here it is tacitly affirmed that only one thing can serve as the "idol" or "image" of God, and that thing is emphatically not a handcrafted idol made from wood, stone, or gold. Rather, only a person, a spirit-endowed living human, can adequately "image" God, bring God's wise rule to creation.
+
+---
+
+*Page 231 (Location 3331-3338)*
+
+> The previous two chapters examined the Christian vision for final salvation. Final salvation is not about the individual soul going to heaven after death; it is about resurrection into new creation. Our whole person-body, soul, and spirit-will be raised to new life by God, and we will do what humans were designed all along to do: we will act as "idols of God" who are fully imbued with the divine presence. That is, we will be perfect representations of God, as finally we are fully conformed to Jesus's image-the original, authentic image of God. The kingdom of God that was inaugurated with Jesus's first coming, especially with his enthronement at the right hand of God, will be brought to a fullness as that reign is actualized through us. The lost glory having been more than restored, Christians will rule over creation alongside Jesus the king as citizens of the new Jerusalem, the city that God will bring down to the earth. Allegiance to Jesus the king ultimately means that we reign with the king.
+
+---
+
+*Page 234 (Location 3383-3387)*
+
+> If we are saved, it is because we have been united with Jesus and incorporated into his innocence by means of the atoning function of his sacrificial death and the gift of the Holy Spirit; we are now part of him, so we participate in his death and resurrection unto victorious new life. In the final analysis, then, an individual can be said to be righteous or justified-past, present, and future-when and only when he or she is "in the Messiah" or united to Jesus the king.
+
+---
+
+*Page 238 (Location 3445-3455)*
+
+> Nevertheless, within biblical theology, foreordained individual election may not be a safe starting point, for even if it is allowed (perhaps even encouraged) by the general biblical evidence and is philosophically consistent, at the same time it runs roughshod over the election story the Bible wants to tell: God's election of the Messiah through Israel's election in order to save Jew and gentile alike within his elect church. In fact, there is not a single statement in the Bible that unambiguously indicates that God preselects specific individuals before they are born (apart from the Son) for eternal salvation11-and the same can be said for eternal separation.12 Nor does the Bible stress an individual-first sequence of salvation, but a community-first sequence. The Bible is not really interested in telling a story about God's predestining election of individuals, even if such a view is compatible with the biblical witness.13 So if the Bible is reticent to articulate an election-based individual theology of salvation, then might it not be wise for us to follow suit?
+
+---
+
+*Page 245 (Location 3545-3551)*
+
+> When Paul speaks of justification to his churches, he speaks of it as the past and present possession of his churches because through union those who confess Jesus as king truly share in Jesus's death and his resurrection unto new life. Justification is not only about what happened on the cross; it also depends on Jesus's resurrection. Through pistis we are united to Jesus in such a way that his resurrection (which liberated him from death and served as proof of the genuineness of his own justification) forms part of the basis of the church's past, present, and future justification. Because the head has been "raised for our justification," the body and its members are justified too. That is, the church is delivered through Jesus's resurrection so that union with his resurrection guarantees our own.
+
+---
+
+*Page 259 (Location 3753-3761)*
+
+> For maximal clarity, subsequent ecumenical work should add that Jesus as our atoning, representative Messiah-king is our declared, realized, and effective righteousness, and that we genuinely share in the king's liberating righteousness by pistis alone as we are declared righteous in him by God upon our own confession of allegiance and come to share in the Holy Spirit (ordinarily at baptism). The Messiah's righteousness (that is, the resurrection-effecting verdict that he possesses) is then maintained and infused by our collaboration with the Holy Spirit, so that in him we become the righteousness of God (that is, we share in the Christ's resurrection-effecting verdict). This pistis is not primarily "faith" or "trust" or "belief" in the validity of God's promise that we are justified (righteous) in Jesus-and this misplaced emphasis characteristic of the Reformation era still holds sway today. Rather, this pistis is especially submissive and embodied allegiance to Jesus as the ruling Messiah, an allegiance that forges and maintains union with Jesus the righteous king.
+
+---
+
+*Page 262 (Location 3796-3803)*
+
+> In-the-Messiah or incorporated righteousness can be defined as the saving perfect righteousness of Jesus the Christ that is counted entirely ours when we join the Spirit-filled body that is already united to the righteous one, Christ the kingly head. That is, this alien righteousness, this righteous standing that properly belongs to Jesus alone, becomes ours derivatively when we give allegiance to Jesus as the sovereign king, at which moment the life-giving Spirit that already envelops the allegiance-yielding community also enters into us. At the moment of allegiance-generated, Spirit-enabled union, the individual is born again, is declared and truly is fully righteous in God's sight, and can properly be described as having eternal life because and only because she or he is united to Jesus the king and so shares his totally righteous standing. Paul envisions all of this ordinarily happening as part of the baptismal process.
+
+---
+
+*Page 263 (Location 3820-3830)*
+
+> It is necessary for final salvation that we (individually and collectively) be declared innocent by God. Toward that end, we must participate in "the righteousness of God," the resurrection-effecting verdict rendered by God over Jesus the Messiah, which occurs by pistis alone when the Holy Spirit unites us with him. Paul understands this union to be secured through the baptismal process, at which time repentance is embodied by the washing away of sins in the water, allegiance (pistis) is publically confessed, and the Spirit is invoked. For Paul the righteousness of God is God's resurrection-effecting verdict that Jesus the wrath-bearing, sin-atoning, allegiant king is alone righteous-a verdict that all who are united to Jesus the representative king share. Salvation means sharing in the righteousness of God, the verdict that Jesus the anointed king received unto resurrection life. Scripture is clear that this righteousness is properly the king's righteousness, not our own righteousness, for we receive right standing "in the Christ" initially, presently, and finally only through pistis-securing union with Jesus the king when God declares us righteous in him. Accordingly, our ongoing and future justification depends on the maintenance of our righteousness-union with Jesus the saving king.
+
+---
+
+*Page 273 (Location 3945-3950)*
+
+> Most of the confusion about the gospel in our contemporary church culture stems from a failure to see that "Jesus is the king" is the high point of the good news. In a "salvation culture" it may be eagerly acknowledged that "Jesus is Lord," but Jesus's cross is what saves us, not his resurrection or lordship, so that lordship can be freely ignored without risking salvation. This is a dangerous error. A "gospel culture," on the other hand, recognizes that "Jesus is king" is integral to the good news itself, affirming that we indeed are saved by Jesus's sacrifice and resurrection, but these are only personally effective when allegiance to Jesus as king forges a union with him.
+
+---
+
+*Page 284 (Location 4103-4111)*
+
+> The centrality of the allegiance metaphor reminds us that Jesus is first and foremost the king to whom we have sworn loyalty; we are his subjects. His role is to rule; our part is to obey so that we become fitting servant-rulers too by willingly submitting to and then enacting his kingdom principles: openhanded love, radical forgiveness, spreading the good news, generosity to the poor, trust for daily provisions, and purity of heart. Similarly, when we begin to feel that Jesus is above all a best friend (or worse, a boyfriend), or at least that we would like him to be, it is probably time to remind ourselves that although Jesus is truly a friend and brother, he is the king, the enthroned Son of God, and what secures us to him is above all our allegiance to him as such. In other words, it is important to have a personal relationship with Jesus (Jesus knows his sheep, calling each by name, and his sheep know his voice; see John 10), but we dare not forget when personally relating to Jesus that he is the mighty Christ.
+
+---
+
+*Page 286 (Location 4135-4141)*
+
+> say this not as a command, but to prove by the earnestness of others that your love also is genuine. For you know the grace of our Lord Jesus, the Christ, that though he was rich, yet for your sake he became poor, so that you by his poverty might become rich. (2 Cor. 8:8-9) What would Jesus do? Although he was rich, he would become poor for us; that is, he would live out the narrative that is the gospel. He invites us to follow this same pattern. As Michael Gorman so eloquently puts it, to be allegiant to Jesus means "becoming the gospel" for the sake of others, to live out the pattern established by the Christ's career and so to be joined fully to his life.8
+
+---
+
+*Page 291 (Location 4219-4237)*
+
+> It is a well-known Christian truism that a person must have faith or believe in Jesus to be saved. I have been arguing that this truism is in fact a dangerous half-truth. With its anti-evidential, anti-rational, and "leap" connotations, the English word faith is of limited value when discussing eternal salvation in our present cultural climate. Meanwhile belief is also inadequate, because in contemporary idiom it suggests that we are saved merely by having the right facts squeezed into our brains. It primarily means "acknowledging as real or true" but does not sufficiently capture the connotation of enacted loyalty. But at the same time we must acknowledge that this half-truth does indeed contain genuine truth that must not be cast aside. We must find a vocabulary and grammar that extends beyond faith and belief, augmenting or replacing these terms when necessary, so that we emphasize active loyalty to Jesus the king. The gospel is the transformative story about the career of Jesus-namely, how he became Jesus the Christ, that is, Jesus the king, Lord of heaven and earth. Jesus became the king through his willing participation in the saving events of the gospel, especially his trusting allegiance to God the Father in undertaking crucifixion unto death. That allegiance was vindicated when Jesus was raised to new life and enthroned at God the Father's right hand. In this sequence of action, God demonstrated fidelity to his Son, his people, the world, and indeed all creation. Jesus's enthronement is not something extra beyond the gospel, but its climax. To respond to the gospel above all means to publicly acknowledge allegiance to Jesus the universal king. On both the divine and the human side, the salvation story overflows with allegiance. So, in the final analysis, salvation is by allegiance alone. That is, God requires nothing more or nothing less than allegiance to Jesus as king for initial, current, and final salvation. As such, while continuing to affirm the absolute centrality of the cross, the atonement, and the resurrection, the church must move away from a salvation culture that spins around the axis of "faith alone" in the sufficiency of Jesus's sacrifice. It must move toward a gospel culture that centers upon "allegiance alone" to Jesus the enthroned king. With the Apostles' Creed as a pledge of allegiance, the rallying cry of the victorious church can become "We give allegiance to Jesus the king." For as the creed reminds us, Jesus the Christ is "our Lord" and he "is seated at the right hand of God," and as such he both merits and demands our unreserved loyalty.
