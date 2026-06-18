@@ -52,6 +52,102 @@
 
 ---
 
-*Page 43 (Location 429-430)*
+*Page 43 (Location 428-432)*
 
-> Actually, there might be something wonderfully humbling about thinking so: we
+> Are we to think that God was so busy with everything else in the world that he forgot about Israel, his covenantal people, while they were suffering in Egypt? Actually, there might be something wonderfully humbling about thinking so: we imagine ourselves to be the center of God's attention, but if even Israel in Egypt was forgotten, so too might we be. On the other hand, there's no question that Israel is the main character in its own biblical storytelling, and it's rather unlikely that the Bible's Israelite authors thought that their own national deity was off worrying about something other than them.
+
+---
+
+*Page 44 (Location 444-447)*
+
+> The pleas found in the psalms for God to zkhr the speaker may be best read not as "remember me, whom you have forgotten," but rather "I know you're busy, and therefore haven't been caring for me, but give me your attention now." And so too the converse: "Do not zkhr the sins of my youth," as Psalm 25:7 (NRSV) says. Yes, there is recollection here, but more in the sense of "don't dwell on the past."
+
+---
+
+*Page 50 (Location 506-510)*
+
+> The pun still works. It's just that we should be calling the holiday "Protection" rather than "Passover," because Yahweh "protected the houses of the Israelites." It's a small thing, maybe. But getting back to the original sense of the word might remind us that in ancient Israel there was much to worry about, and much to be protected from, beyond that one long-ago incident. The Exodus story may be the paradigmatic example of Yahweh's protection, but it is the protection more generally, then and since, that is to be celebrated.
+
+---
+
+*Page 68 (Location 693-697)*
+
+> When slaves are turned into servants, the Bible itself is changed. Our revulsion at the institution of slavery is kept at a distance from the biblical text that stands as our religious heritage. The Bible is protected, albeit from itself. Slavery is minimized, or worse: The King James Version, notably, does not translate 'vd as "slave" a single time. The result? Some KJV readers have denied that there is any slavery in the Bible whatsoever. Yet the word 'vd appears around 800 times in the Bible. That's 800 moments when a slave, and the existence of slavery in ancient Israel and the biblical text, has been erased.
+
+---
+
+*Page 69 (Location 708-711)*
+
+> In the book of Joshua, God states, "My servant Moses is dead" (1:2, JPS)-we are relatively comfortable with the idea of serving God but perhaps less so with the idea of being God's slave. Yet the qualities of obedience, subservience, and loyalty-and the implicit threat of punishment for the lack thereof-are part of this picture as well. One might point to the way this language is picked up in the New Testament in the phrase "slave of Christ" in 1 Corinthians 7:22.
+
+---
+
+*Page 71 (Location 726-730)*
+
+> The Hebrew term translated as "vanity" here is hvl. The word probably had an original meaning of "breath" but is used everywhere to suggest two broad concepts: ephemerality-as in the fleeting quality of a breath-and worthlessness. The first of these overlaps with our modern notion of "vanishing"; the second with the phrase "in vain." Both terms, "vanish" and "vain"-and also, of course, "vanity"-come from the same Latin root, vanus, meaning "empty." And that is how the KJV translation intended this to read: all is fleeting, worthless, in vain.
+
+---
+
+*Page 74 (Location 764-768)*
+
+> Certainly in ancient Israel, most people would have been impure almost all the time. And despite our contemporary sense of stigma around uncleanness or impurity, this was perfectly fine. They understood that being unclean was normal. It's purity that's the unusual human condition. And purity is required only in one single circumstance: if you want to interact with someone, something, or somewhere sacred. What we refer to simply as impurity or uncleanness is, in fact, limited to a very restricted sphere of life. It is, more properly, cultic impurity-ritual uncleanness.
+
+---
+
+*Page 76 (Location 793-793)*
+
+> The stigma against impurity is not a biblical one. Impurity was not an existential The stigma against impurity is not a biblical one. Impurity was not an existential state; it was a passing one, often remedied by mere bathing, and it was relevant only insofar as it restricted a person's ability to go to the sanctuary. Unless you were a priest, it was perfectly acceptable to become impure. It was expected, it was natural, and it was entirely removed from any moral judgment.
+
+---
+
+*Page 86 (Location 897-900)*
+
+> But those who are separated from the rest of Israel include not only those with skin disease, but also-in the same verse quoted in the header above-those who are impure from burying a corpse. That is to say, for the ancient Israelite author, what is at stake here is not medical infection but contagious ritual impurity.
+
+---
+
+*Page 94 (Location 985-992)*
+
+> As more material from ancient Mesopotamia and Egypt came to light, second-millennium BCE texts from across the ancient Near East referred to a previously unknown group: the Habiru. The Habiru were not an ethnic group. They were, rather, a social group, and not a high-status one. In the second-millennium documents that attest to their presence, the Habiru are some combination of outlaws, mercenaries, and nomads, depending on the circumstances. They lived on the outskirts of society, occasionally of use but often more a nuisance. The term is even used as a pejorative designation for a ruler who rebels against his Egyptian overlord. If we take all of that and then think about how "Hebrew" is used by foreigners in the Bible, a reasonable picture begins to emerge. For the Egyptian Pharaoh, what are the descendants of Jacob if not exactly this: nomadic nuisances who refuse to obey? One might, then, read "Hebrew" as no more than an insult. But we should also keep in mind that historically the Israelites probably were closer to the Habiru than the biblical narrative suggests.
+
+---
+
+*Page 105 (Location 1112-1114)*
+
+> We might, in this light, also think about the famous description of David: "the Lord has sought out a man after his own heart" (1 Sam 13:14, NRSV). With a Western notion of the heart, this might mean all sorts of things; in the Hebrew, it might well mean simply "a man who has the same inclinations as Yahweh."
+
+---
+
+*Page 106 (Location 1128-1130)*
+
+> The heart is not just cognition; it is not just emotion. It is all of that which we think of as being internal: "the Lord does not see as mortals see; they look on the outward appearance, but the Lord looks on the heart" (1 Sam 16:7, NRSV).
+
+---
+
+*Page 120 (Location 1253-1261)*
+
+> The formula used here would have been familiar to the educated reader in seventh-century BCE Judah, when Deuteronomy was written. "Love" is a technical term from the lexicon of international diplomacy. In multiple texts from the ancient Near East, stretching back a full millennium before the seventh century BCE, treaties and other diplomatic texts use the word "love" to denote the loyalty that the inferior party is obligated to demonstrate toward the superior. Those who "love" are the king's or emperor's subjects; those who oppose him are those who "hate." This is the very language used in the Ten Commandments: God will punish the third and fourth generation of those who "hate" him but will be steadfast to the thousandth generation of those who "love" him and keep his commandments (Deut 5:9-10). Just as the ancient Near Eastern ruler is concerned that his subjects might give their allegiance to another king, so too Yahweh is concerned that Israel might give their obedience to another deity. Thus the command: you shall love-really, you shall prefer, indeed, you shall be loyal to-Yahweh your god.
+
+---
+
+*Page 147 (Location 1566-1568)*
+
+> But there is no indication in the Bible that a sense of loss was part of the conceptual range of sacrifice. Rather, we should return to the root meaning of the English word "sacrifice": to make something sacred. Sacrifice, as a ritual act, was most simply the transfer of something non-sacred, or profane, from the human sphere to the divine.
+
+---
+
+*Page 147 (Location 1570-1573)*
+
+> This is the sense of the less frequent term for sacrifice or offering, krvn. This term, which appears only in the priestly portions of the Bible (and notably in Mark 7:11), comes from the root meaning "to approach, bring close." The verb from the same root is used regularly to denote the bringing of sacrifices. That is, a sacrifice is something that is brought near to God: something that passes from human space to divine space, from human possession to divine possession.
+
+---
+
+*Page 151 (Location 1605-1611)*
+
+> But there is also a more practical, even bordering on economic, connotation at play here. Yahweh redeems Israel from Egypt, but this is no pure salvation, no mere change from slavery to freedom. Yahweh makes clear that the reason that Israelites can never be permanent slaves to other humans is not because they are forever to be free but because they already have an owner: Yahweh. "To me the people of Israel are slaves; they are my slaves whom I brought out from the land of Egypt" (Lev 25:55). The redemption from Egypt was a transaction: Through the plagues and wonders, Yahweh purchased Israel. Israel wasn't freed-it just changed hands: "O lord Yahweh, do not destroy the people who are your very own possession, whom you redeemed" (Deut 9:26, NRSV). Israel is Yahweh's possession; that is what it means for Yahweh to have redeemed it.
+
+---
+
+*Page 159 (Location 1703-1712)*
+
+> And this is what "work" meant in the context of the sabbath: the means by which one earned a living. The sabbath was, quite simply, not a work day. It was a day set apart-the real meaning of the word usually translated into English as "sanctify" (see holy)-for communal ritual obligations. It would only be with the advent of rabbinic interpretation of the Bible, around the turn of the Common Era, when the "work" prohibited on the sabbath would come to encompass almost every element of human activity, from lighting a fire to carrying an object outside the house. This was the understanding of the sabbath that was known to Augustine and that remains in place for observant Jews to this day. The sabbath in Christianity would, of course, come to be a day for setting aside one's weekday occupation, a day for expanded church rituals, for the Eucharist in particular. It would, in short, come to look more like the sabbath of seventh-century BCE Israel than like the sabbath of contemporary Judaism. Christianity's devaluation of the fourth commandment was, in fact, a response not to the biblical text but to its Jewish interpretation-an interpretation that had totally obscured the original sense of the fourth commandment.

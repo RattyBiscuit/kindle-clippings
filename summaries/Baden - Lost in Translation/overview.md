@@ -5,3 +5,4 @@ Baden's central thesis is that translation is never neutral. Words that seem tra
 Rather than criticising translators or translation traditions, Baden shows that meaning is inevitably filtered through culture, and that modern readers often read theological assumptions back into ancient texts. His aim is to recover what these words meant to their earliest audiences, not to prescribe how they must be used today
 
 The book is deliberately non-technical, each chapter is a concise essay that combines Hebrew philology, historical context, and close reading of biblical passages. Collectively, the essays argue that appreciating the strangeness of the biblical past allows for a more honest and nuanced engagement with scripture in the present.
+
