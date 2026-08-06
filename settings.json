@@ -18,7 +18,9 @@
         "Salvation by Allegiance Alone: Rethinking Faith, Works, and the Gospel of Jesus the King (Bates, Matthew W.)": "Bates - Salvation by Allegiance Alone",
         "The Biblical Cosmos: A Pilgrim's Guide to the Weird and Wonderful World of the Bible (Parry, Robin A.)": "Parry - The Biblical Cosmos",
         "Baden - Lost in Translation - Recovering the Origins of Familiar (Joel S. Baden)": "Baden - Lost in Translation",
-        "Stern - Restoring the Jewishness of the Gospel (David H. Stern)": "Stern - Restoring the Jewishness of the Gospel"
+        "Stern - Restoring the Jewishness of the Gospel (David H. Stern)": "Stern - Restoring the Jewishness of the Gospel",
+        "Hidden In Plain View: Undesigned Coincidences in the Gospels and Acts (McGrew, Lydia)": "McGrew - Hidden In Plain View",
+        "Imes - Bearing God's Name - Why Sinai Still Matters (Carmen Joy Imes)": "Imes - Bearing God's Name"
     },
     "drops": {
         "Alter - The Hebrew Bible": [
@@ -33,6 +35,8 @@
                 "end": 3766
             }
         ],
-        "Galli - 131 Christians Everyone Should Know": true
+        "Galli - 131 Christians Everyone Should Know": true,
+        "Sunrise on the Reaping (A Hunger Games Novel) (The Hunger Games) (Collins, Suzanne)": true,
+        "The Complete Sherlock Holmes (Doyle, Arthur Conan)": true
     }
 }
