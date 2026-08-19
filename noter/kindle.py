@@ -302,7 +302,6 @@ class ClippingsReader:
     def __add_clippings_to_dict(self):
         for clippings in self.df.to_dict("records"):
             clipping = PandaClipping(clippings)
-            print(clipping)
             self.clippings.add_clipping(clipping)
 
     def __group_clippings(self):
