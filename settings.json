@@ -19,12 +19,7 @@
         "The Biblical Cosmos: A Pilgrim's Guide to the Weird and Wonderful World of the Bible (Parry, Robin A.)": "Parry - The Biblical Cosmos"
     },
     "drops": {
-        "Alter - The Hebrew Bible": [
-            {
-                "start": 92258,
-                "end": 92259
-            }
-        ],
+        "Alter - The Hebrew Bible": true,
         "Tolkien - The Hobbit": [
             {
                 "start": 3765,
