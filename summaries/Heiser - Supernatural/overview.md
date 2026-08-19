@@ -3,3 +3,4 @@
 Heiser emphasizes the concept of a divine council, suggesting that God governs the world not only through His direct actions but also via a host of spiritual beings. These beings, often referred to as "gods" in Scripture, have varying degrees of authority and influence over nations, complicating the simplistic dichotomy of good versus evil. Heiser's interpretations challenge readers to reconsider their understanding of biblical narratives and the nature of divine agency.
 
 The book also discusses the adoption of believers into God's family, highlighting the transformative potential of engaging with the supernatural. Heiser posits that through Jesus Christ, believers are empowered to confront spiritual darkness and participate in God's restoration plan for creation.
+

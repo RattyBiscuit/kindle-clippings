@@ -31,7 +31,10 @@ class Clipping(Clipping):
 
     def _get_title_author(self, split_line):
         title_author = super()._get_title_author(split_line)
-        if not (title_author in self.settings["renames"]):
+        if (
+            not (title_author in self.settings["renames"])
+            and title_author not in self.settings["drops"]
+        ):
             print(f"\nWARNING: Book Rename not present for '{title_author}'")
             if ask_user("\tShould I create it for you?", default="Y"):
                 author = input("\tAuthor: ")
@@ -202,6 +205,8 @@ class ClippingsReader:
 
         self.df = pd.DataFrame(clippings_for_df)
         df = self.df.copy()
+        df["max_date"] = max(df["date"])
+        df["min_date"] = min(df["date"])
         df = self.__concat_clippings(df)
         df = self.__drop_where_start_matches(df)
         df = self.__drop_when_fully_contained(df)
@@ -252,6 +257,8 @@ class ClippingsReader:
                 if clipping.title_author in self.settings["drops"]:
                     drop_items = self.settings["drops"][clipping.title_author]
                     if isinstance(drop_items, bool):
+                        if drop_items is True:
+                            should_drop = True
                         continue
                     drops = self.settings["drops"][clipping.title_author]
                     should_drop = [

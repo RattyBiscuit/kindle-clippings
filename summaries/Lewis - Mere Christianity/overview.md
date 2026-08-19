@@ -7,3 +7,4 @@ Book 2, “What Christians believe,” examines various conceptions of God, cont
 Book 3, “Christian behaviour,” explores what living a Christian life entails. It defines morality in three parts - harmony with oneself, others and God - and surveys the cardinal virtues, sexual morality, marriage, forgiveness, the perils of pride, and the three theological virtues of faith, hope and charity.
 
 Book 4, “Beyond personality: or first steps in the doctrine of the Trinity,” delves into the relations within the Godhead, considers God’s interaction with time, and likens spiritual growth to a “good infection” spread by Christ. It explores how understanding the Trinity transforms Christian character and community life.
+
