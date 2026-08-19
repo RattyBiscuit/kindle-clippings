@@ -1,4 +1,5 @@
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -80,6 +81,7 @@ class ClippingsReader:
         self._clippings_file_path = clippings_file_path
         self._clippings_old_files_glob = clippings_old_files_glob
         self.clippings = Clippings()
+        self.added_clippings = set()
         self.clippings_by_title_author = {}
         self.summaries_by_title_author = {}
         self.df = pd.DataFrame(
@@ -138,9 +140,49 @@ class ClippingsReader:
         """
         Parse raw clippings from a file and group them by title and author.
         """
+        self.__read_from_book_notes()
         self.__parse_clippings()
         self.__group_clippings()
         self._write_settings()  # save any updates to the settings file to disk
+
+    def __make_dict_from_book_note(self, clipping):
+        pattern = (
+            r"Page: (\d+)\nLocation: (\d+)\nDate: (\w+ \w+ \d+)\n\n(.*?)(?=\n\n|\Z)"
+        )
+        matches = re.search(pattern, clipping, re.DOTALL)
+        if matches:
+            page_number = matches.group(1)
+            location_number = matches.group(2)
+            date_text = matches.group(3)
+            text = matches.group(4).strip()
+
+            result = {
+                "page": page_number,
+                "start_location": int(location_number),
+                "end_location": "",
+                "date": date_text,
+                "text": text.replace("> ", "", 1),
+            }
+            return result
+        else:
+            print("No matches found.")
+            return {}
+
+    def __read_from_book_notes(self):
+        path = Path("~/Home/Obsidian/BookNotes").expanduser()
+        imports = path.glob("imports/*.md")
+        for imp in imports:
+            imp_text = imp.read_text()
+            imp_text = "\n".join([_.split("^ref")[0] for _ in imp_text.split("\n")])
+            imp_info, imp_text = imp_text.split("## Kindle Highlights")
+            for clipping in imp_text.split("---"):
+                if not clipping.strip():
+                    continue
+                clipping_dict = self.__make_dict_from_book_note(clipping)
+                clipping_dict["title_author"] = imp.stem
+                clipping = PandaClipping(clipping_dict)
+                self.clippings.add_clipping(clipping)
+                self.added_clippings.add(imp.stem)
 
     def __parse_clippings(self):
         """
@@ -154,6 +196,10 @@ class ClippingsReader:
             to the Clippings object.
         """
         clippings_for_df = self.__filter_raw_clippings()
+        clippings_for_df = [
+            _ for _ in clippings_for_df if _["title_author"] not in self.added_clippings
+        ]
+
         self.df = pd.DataFrame(clippings_for_df)
         df = self.df.copy()
         df = self.__concat_clippings(df)
@@ -249,6 +295,7 @@ class ClippingsReader:
     def __add_clippings_to_dict(self):
         for clippings in self.df.to_dict("records"):
             clipping = PandaClipping(clippings)
+            print(clipping)
             self.clippings.add_clipping(clipping)
 
     def __group_clippings(self):
