@@ -71,7 +71,8 @@ class PandaClipping(Clipping):
             self.page = None
         self.start_location = clipping_dict["start_location"]
         self.end_location = clipping_dict["end_location"]
-        self.date = clipping_dict["date"]
+
+        self.date = pd.to_datetime(clipping_dict["date"])
         self.text = clipping_dict["text"]
 
 

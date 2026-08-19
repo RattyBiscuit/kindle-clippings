@@ -1,5 +1,5 @@
 {% for clipping in clippings %}{% if clipping.start_location %}*Location: {{clipping.start_location}}*{% endif %}
-{% if clipping.date %}*Date: {{ clipping.date }}*{% endif %}
+{% if clipping.date %}*Date: {{ clipping.date.strftime("%d %b %Y") }}*{% endif %}
 
 > {{ clipping.text }}
 {% if not loop.last %}
