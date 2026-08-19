@@ -1,4 +1,3 @@
-*Page: 6*
 *Location: 157*
 *Date: 19 Aug 2026*
 
@@ -6,7 +5,6 @@
 
 ---
 
-*Page: 12*
 *Location: 256*
 *Date: 19 Aug 2026*
 
@@ -14,7 +12,6 @@
 
 ---
 
-*Page: 12*
 *Location: 263*
 *Date: 19 Aug 2026*
 
@@ -22,7 +19,6 @@
 
 ---
 
-*Page: 13*
 *Location: 276*
 *Date: 19 Aug 2026*
 
@@ -30,7 +26,6 @@
 
 ---
 
-*Page: 13*
 *Location: 281*
 *Date: 19 Aug 2026*
 
@@ -38,7 +33,6 @@
 
 ---
 
-*Page: 14*
 *Location: 299*
 *Date: 19 Aug 2026*
 
@@ -46,7 +40,6 @@
 
 ---
 
-*Page: 19*
 *Location: 393*
 *Date: 19 Aug 2026*
 
@@ -54,7 +47,6 @@
 
 ---
 
-*Page: 19*
 *Location: 400*
 *Date: 19 Aug 2026*
 
@@ -62,7 +54,6 @@
 
 ---
 
-*Page: 20*
 *Location: 406*
 *Date: 19 Aug 2026*
 
@@ -70,7 +61,6 @@
 
 ---
 
-*Page: 20*
 *Location: 412*
 *Date: 19 Aug 2026*
 
@@ -78,7 +68,6 @@
 
 ---
 
-*Page: 20*
 *Location: 424*
 *Date: 19 Aug 2026*
 

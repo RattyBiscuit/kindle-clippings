@@ -1,4 +1,3 @@
-*Page: 16*
 *Location: 204*
 *Date: 19 Aug 2026*
 
@@ -6,7 +5,6 @@
 
 ---
 
-*Page: 36*
 *Location: 595*
 *Date: 19 Aug 2026*
 
@@ -14,7 +12,6 @@
 
 ---
 
-*Page: 50*
 *Location: 848*
 *Date: 19 Aug 2026*
 
@@ -22,7 +19,6 @@
 
 ---
 
-*Page: 64*
 *Location: 1125*
 *Date: 19 Aug 2026*
 
@@ -30,7 +26,6 @@
 
 ---
 
-*Page: 65*
 *Location: 1130*
 *Date: 19 Aug 2026*
 
@@ -38,7 +33,6 @@
 
 ---
 
-*Page: 67*
 *Location: 1169*
 *Date: 19 Aug 2026*
 
@@ -46,7 +40,6 @@
 
 ---
 
-*Page: 74*
 *Location: 1223*
 *Date: 19 Aug 2026*
 
@@ -54,7 +47,6 @@
 
 ---
 
-*Page: 91*
 *Location: 1597*
 *Date: 19 Aug 2026*
 
@@ -62,7 +54,6 @@
 
 ---
 
-*Page: 115*
 *Location: 2034*
 *Date: 19 Aug 2026*
 
@@ -70,7 +61,6 @@
 
 ---
 
-*Page: 115*
 *Location: 2038*
 *Date: 19 Aug 2026*
 
@@ -78,7 +68,6 @@
 
 ---
 
-*Page: 154*
 *Location: 2727*
 *Date: 19 Aug 2026*
 
@@ -86,7 +75,6 @@
 
 ---
 
-*Page: 155*
 *Location: 2752*
 *Date: 19 Aug 2026*
 
@@ -94,7 +82,6 @@
 
 ---
 
-*Page: 165*
 *Location: 2936*
 *Date: 19 Aug 2026*
 
@@ -102,7 +89,6 @@
 
 ---
 
-*Page: 170*
 *Location: 3032*
 *Date: 19 Aug 2026*
 
@@ -110,7 +96,6 @@
 
 ---
 
-*Page: 172*
 *Location: 3067*
 *Date: 19 Aug 2026*
 
@@ -118,7 +103,6 @@
 
 ---
 
-*Page: 229*
 *Location: 3836*
 *Date: 19 Aug 2026*
 
@@ -126,7 +110,6 @@
 
 ---
 
-*Page: 284*
 *Location: 4821*
 *Date: 19 Aug 2026*
 
@@ -134,7 +117,6 @@
 
 ---
 
-*Page: 333*
 *Location: 5707*
 *Date: 19 Aug 2026*
 
@@ -142,7 +124,6 @@
 
 ---
 
-*Page: 342*
 *Location: 5873*
 *Date: 19 Aug 2026*
 

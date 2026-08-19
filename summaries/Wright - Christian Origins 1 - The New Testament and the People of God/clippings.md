@@ -1,11 +1,9 @@
-
 *Location: 381*
 *Date: 2025-07-08 13:15:30*
 
 > here, as sometimes in Paul, includes the generic.) We
 
 ---
-
 
 *Location: 2289*
 *Date: 2025-07-26 15:01:49*
@@ -14,14 +12,12 @@
 
 ---
 
-
 *Location: 2313*
 *Date: 2025-07-26 15:07:14*
 
 > The early Christians must have been a certain sort of people: we need them to have been, to sustain our view of what Christianity is. This has produced, as is now commonplace to remark, 'the Myth of Christian Beginnings'.14
 
 ---
-
 
 *Location: 2394*
 *Date: 2025-07-27 14:56:53*
@@ -30,14 +26,12 @@
 
 ---
 
-
 *Location: 3357*
 *Date: 2025-08-09 22:56:08*
 
 > adopted. (1) Who are we? We are humans, made in the image of the creator. We have responsibilities that come with this status. We are not fundamentally determined by race,
 
 ---
-
 
 *Location: 3358*
 *Date: 2025-08-09 22:56:20*
@@ -46,14 +40,12 @@
 
 ---
 
-
 *Location: 3762*
 *Date: 2025-08-13 15:32:47*
 
 > The Targums, translating the archaic Hebrew into a contemporary Aramaic, and adding some explanatory material as they did so, eventually became a fixed tradition in their own right.
 
 ---
-
 
 *Location: 4118*
 *Date: 2025-08-14 15:48:34*
@@ -62,14 +54,12 @@
 
 ---
 
-
 *Location: 4122*
 *Date: 2025-08-14 15:45:54*
 
 > Any suggestion, even by implication, that Jews led untroubled lives with leisure to discuss the finer points of dogmatic theology must be rejected. Jewish society faced major external threats and major internal problems. The question, what it might mean to be a good or loyal Jew, had pressing social, economic and political dimensions as well as cultural and theological ones. It is within this context that we can understand the frequency, throughout our period, of the movements of revolt which form such an important feature of the landscape.
 
 ---
-
 
 *Location: 4130*
 *Date: 2025-08-14 15:50:18*
@@ -78,14 +68,12 @@
 
 ---
 
-
 *Location: 4969*
 *Date: 2025-08-20 15:54:17*
 
 > When Israel's god acted, he would send the true anointed priest, and the true Davidic king, to be the Messiahs of his people. This belief in two Messiahs may be startling to those accustomed to think of Jews as expecting 'the Messiah' simply, but it is perfectly consistent with the group's firmly held belief in a renewed Temple. It would be quite wrong for a Davidic king, descended from Judah, to preside over the true Temple; only a descendent of Levi, Aaron and Zadok would do. The Epistle to the Hebrews faced exactly the same problem, and simply solved it in a different way (Hebrews 5-7).
 
 ---
-
 
 *Location: 5403*
 *Date: 2025-08-22 14:49:43*
@@ -94,14 +82,12 @@
 
 ---
 
-
 *Location: 5530*
 *Date: 2025-08-22 16:25:00*
 
 > The three major festivals were of course intimately connected with agriculture (Passover, with barley harvest; Pentecost, with wheat harvest and the bringing of first-fruits to the Temple;72 Tabernacles, with the grape harvest). They thus symbolically celebrated the blessing of Israel's god upon his Land and his people, and thereby drew together the two major covenantal themes of Temple and Land. In addition, Passover celebrated the exodus from Egypt; Pentecost, the giving of Torah on Sinai;73 Tabernacles, the wilderness wandering on the way to the promised land.
 
 ---
-
 
 *Location: 5623*
 *Date: 2025-08-22 23:05:07*
@@ -110,14 +96,12 @@
 
 ---
 
-
 *Location: 5640*
 *Date: 2025-08-22 23:07:54*
 
 > But away from Jerusalem (in Galilee, or in the Diaspora) it was Torah, and particularly the special badges of sabbath and purity, that demarcated the covenant people, and that therefore provided litmus tests of covenant loyalty and signs of covenant hope.
 
 ---
-
 
 *Location: 5643*
 *Date: 2025-08-23 13:01:19*
@@ -126,14 +110,12 @@
 
 ---
 
-
 *Location: 5744*
 *Date: 2025-08-24 14:13:00*
 
 > Israel's Worldview Story, symbol and praxis, focused in their different ways on Israel's scriptures, reveal a rich but basically simple worldview. We can summarize this in terms of the four questions which, as we argued in chapter 5, are implicitly addressed in all worldviews. 1. Who are we? We are Israel, the chosen people of the creator god. 2. Where are we? We are in the holy Land, focused on the Temple; but, paradoxically, we are still in exile. 3. What is wrong? We have the wrong rulers: pagans on the one hand, compromised Jews on the other, or, half-way between, Herod and his family. We are all involved in a less-than-ideal situation. 4. What is the solution? Our god must act again to give us the true sort of rule, that is, his own kingship exercised through properly appointed officials (a true priesthood; possibly a true king); and in the mean time Israel must be faithful to his covenant charter.
 
 ---
-
 
 *Location: 5835*
 *Date: 2025-08-24 15:12:46*
@@ -142,14 +124,12 @@
 
 ---
 
-
 *Location: 5965*
 *Date: 2025-08-26 15:02:00*
 
 > 4. Eschatological duality. The distinction between the present age and the age to come, usually reckoning the present age as evil and the age to come as good.
 
 ---
-
 
 *Location: 5970*
 *Date: 2025-08-26 14:59:46*
@@ -158,14 +138,12 @@
 
 ---
 
-
 *Location: 6050*
 *Date: 2025-08-26 15:03:02*
 
 > 4. Eschatological duality was also accentuated. The only hope for the future was a radically new divine action which would break the power of the present regime and install the sect as the true heirs of Israel's promises. In so far as this could be combined with type 6 (cosmological duality), it is clear that this could lead to a hope for a non-earthly paradise. It is a measure of how little this route was taken that even at Qumran the hope seems to be, not for disembodied bliss, but for the renewal of Jewish society and the world in general;
 
 ---
-
 
 *Location: 6103*
 *Date: 2025-08-26 15:18:57*
@@ -174,14 +152,12 @@
 
 ---
 
-
 *Location: 6243*
 *Date: 2025-08-29 00:49:40*
 
 > But if 'wisdom' is thus the means by which YHWH acts, and if human beings are then to become the means through which he acts, it is clear that wisdom is also precisely that which (like Solomon) they need to be his agents, acting wisely under obedience to the creator and in authority over the world. And, in obtaining wisdom, they will thereby become truly human. Now comes the crucial move: in the intertestamental period 'Wisdom' was identified with Torah. Those who possessed and tried to keep Torah were therefore the true humanity: it was they who would be exalted to the place where humanity belonged, under the creator and over the creation.
 
 ---
-
 
 *Location: 6282*
 *Date: 2025-08-29 01:03:25*
@@ -190,14 +166,12 @@
 
 ---
 
-
 *Location: 6337*
 *Date: 2025-08-29 22:43:59*
 
 > The need for this restoration is seen in the common second-temple perception of its own period of history. Most Jews of this period, it seems, would have answered the question 'where are we?' in language which, reduced to its simplest form, meant: we are still in exile. They believed that, in all the senses which mattered, Israel's exile was stili in progress. Although she had come back from Babylon, the glorious message of the prophets remained unfulfilled. Israel still remained in thrall to foreigners; worse, Israel's god had not returned to Zion. Nowhere in the so-called post-exilic literature is there any passage corresponding to 1 Kings 8:10f., according to which, when Solomon's temple had been finished, 'a cloud filled the house of YHWH, so that the priests could not stand to minister because of the cloud; for the glory of YHWH filled the house of YHWH'. Instead, Israel clung to the promises that one day the Shekinah, the glorious presence of her god, would return at last: Listen! Your sentinels lift up their voices, together they sing for joy, for in plain sight they see the return of YHWH to Zion.101 Then he brought me to the gate, the gate facing east. And there, the glory of the God of Israel was coming from the east; the sound was like the sound of mighty waters; and the earth shone with his glory ... As the glory of YHWH entered the temple by the gate facing east, the spirit lifted me up, and brought me into the inner court; and the glory of YHWH filled the temple ... He said to me: Mortal, this is the place of my throne and the place for the soles of my feet, where I will reside among the people of Israel forever.102 Nowhere in second-temple literature is it asserted that this has happened: therefore it still remains in the future. The exile is not yet really over. This perception of Israel's present condition was shared by writers across the board in second-temple Judaism. We may cite the following as typical: Here we are, slaves to this day-slaves in the land that you gave to our ancestors to enjoy its fruits and its good gifts. Its rich yield goes to the kings whom you have set over us because of our sins; they have power also over our bodies and over our livestock at their pleasure, and we are in great distress.103 This could not be clearer: Israel has returned to the land, but is still in the 'exile' of slavery, under the oppression of foreign overlords.
 
 ---
-
 
 *Location: 6454*
 *Date: 2025-08-29 23:07:02*
@@ -206,14 +180,12 @@
 
 ---
 
-
 *Location: 6485*
 *Date: 2025-08-29 23:13:28*
 
 > There were of course considerable differences between one sort of sacrifice and another. At one end of the scale there were the sacrifices at the heart of the great national festivals: the Passover lamb signified the past act and the future hope of redemption for the nation. At the other end were the individual sin-offerings whereby an Israelite, conscious of an accidental breach of Torah, or of something done in ignorance of its being forbidden, would have his or her membership in the people of God reaffirmed despite the lapse. (Sinning 'with a high hand', i.e. deliberately, meant in theory that the sinner was cut off from Israel; there was no sacrifice for such offences.126) Somewhere logically in between those two was the Day of Atonement, a time of both individual and corporate offering of sacrifice, in which the nation as a whole, and the individual within the nation, recognized that at every level Israel had sinned against her god, deserved his judgment, but instead could receive his forgiveness and reaffirmation through offering sacrifice. Thus, although no clear theory may have been consciously formulated as to how and why the killing of certain animals under certain circumstances effected this result, the large-scale participation in festivals, and the regular use of the individual sacrifices, indicates clearly that the average Israelite believed firmly that the practice was effective.
 
 ---
-
 
 *Location: 6499*
 *Date: 2025-08-29 23:14:32*
@@ -222,14 +194,12 @@
 
 ---
 
-
 *Location: 6530*
 *Date: 2025-08-30 17:03:19*
 
 > This theme of sacrifice goes much deeper than the individual's remedy for a troubled conscience. The annual pilgrimages were not simply times when a multitude of individual Jews restored their individual relationships with their god; they were occasions of national celebration, and reaffirmation of national (i.e. political and social, as well as 'religious') hope.
 
 ---
-
 
 *Location: 6572*
 *Date: 2025-08-30 17:09:48*
@@ -238,14 +208,12 @@
 
 ---
 
-
 *Location: 6669*
 *Date: 2025-08-31 02:28:53*
 
 > I have often pointed out to students that to describe the fall of the Berlin Wall, as one well might, as an 'earth-shattering event' might perhaps lead some future historian, writing in the Martian Journal of Early European Studies, to hypothesize that an earthquake had caused the collapse of the Wall, leading to both sides realizing they could live together after all. A good many readings of apocalyptic literature in our own century operate on about that level of misunderstanding.
 
 ---
-
 
 *Location: 6695*
 *Date: 2025-08-31 02:33:42*
@@ -254,14 +222,12 @@
 
 ---
 
-
 *Location: 6708*
 *Date: 2025-08-31 02:35:52*
 
 > It is vital for our entire perception of the worldview of first-century Jews, including particularly the early Christians, that we see what follows from all this. When they used what we might call cosmic imagery to describe the coming new age, such language cannot be read in a crassly literalistic way without doing it great violence.
 
 ---
-
 
 *Location: 6751*
 *Date: 2025-08-31 02:47:51*
@@ -270,14 +236,12 @@
 
 ---
 
-
 *Location: 7107*
 *Date: 2025-09-05 00:41:07*
 
 > Rather, the 'salvation' spoken of in the Jewish sources of this period has to do with rescue from the national enemies, restoration of the national symbols, and a state of shalom in which every man will sit under his vine or fig-tree.
 
 ---
-
 
 *Location: 7151*
 *Date: 2025-09-08 00:13:32*
@@ -286,7 +250,6 @@
 
 ---
 
-
 *Location: 7737*
 *Date: 2025-10-03 16:49:43*
 
@@ -294,14 +257,12 @@
 
 ---
 
-
 *Location: 7897*
 *Date: 2025-10-05 15:26:51*
 
 > There appear, then, to be three basic positions taken by Jews in our period, with, no doubt, minor modifications within each. The Sadducees stand out as unusual in that they will have nothing to do with a future life, neither with immortality nor with resurrection. No doubt a substantial and perhaps growing minority of Jews, including those who have quite clearly drunk deeply from the Platonic and general Hellenistic well, could write of the immortality of the soul. But the majority speak of the bodily resurrection of the dead, and frequently address the problem of an intermediate state; this last point is itself strong evidence for belief in bodily resurrection, since only on this premise is there a problem to be addressed. Sometimes, in describing this latter state, they borrow Hellenistic language which in its own context denotes a permanent disembodied state; but they still make it clear that bodily resurrection is the end they have in sight.
 
 ---
-
 
 *Location: 7916*
 *Date: 2025-10-05 15:30:35*

@@ -1,6 +1,5 @@
-{% for clipping in clippings %}{% if clipping.page %}*Page: {{clipping.page}}*{% endif %}{% if clipping.start_location %}
-*Location: {{clipping.start_location}}*{% endif %}{% if clipping.date %}
-*Date: {{ clipping.date }}*{% endif %}
+{% for clipping in clippings %}{% if clipping.start_location %}*Location: {{clipping.start_location}}*{% endif %}
+{% if clipping.date %}*Date: {{ clipping.date }}*{% endif %}
 
 > {{ clipping.text }}
 {% if not loop.last %}
