@@ -5,6 +5,7 @@ from pathlib import Path
 
 import dateutil.parser
 import jinja2
+import numpy as np
 import pandas as pd
 from anyascii import anyascii
 from clippy import Clipping, Clippings
@@ -224,6 +225,7 @@ class ClippingsReader:
         df["next_start_location"] = df["start_location"].shift(-1)
         df["next_end_location"] = df["end_location"].shift(-1)
         df["next_title_author"] = df["title_author"].shift(-1)
+        df["next_date"] = df["date"].shift(-1)
         df["next_text"] = df["text"].shift(-1)
         df["next_index"] = df.index + 1
         df["index"] = df.index
@@ -286,18 +288,85 @@ class ClippingsReader:
 
     def __drop_when_fully_contained(self, df):
 
+        def add_grouper(df):
+            # Create a new column 'grouper' with default value of 0
+            df["grouper"] = 0
+
+            # Create a mask for rows that overlap with another row
+            mask = (
+                df.apply(lambda row: __in_row(df, row), axis=1)
+                .astype(bool)
+                .values.nonzero()[0]
+            )
+
+            # Create a unique identifier for each group of overlapping rows
+            if len(mask) > 0:
+                grouper_values = np.empty(len(mask), dtype=int)
+                grouper_values[0] = 1
+                for i in range(1, len(mask)):
+                    if (
+                        df.iloc[mask[i]]["start_location"]
+                        > df.iloc[mask[i - 1]]["end_location"]
+                    ):
+                        grouper_values[i] = grouper_values[i - 1] + 1
+                    else:
+                        grouper_values[i] = grouper_values[i - 1]
+                df.loc[mask, "grouper"] = grouper_values
+            else:
+                pass  # or handle the case where no overlapping rows are found
+
+            # Reset the index of the DataFrame
+            df = df.reset_index(drop=True)
+            # Calculate the row number within each group
+            df["row_number"] = calculate_row_number(df)
+
+            return df
+
+        def calculate_row_number(df):
+            row_numbers = {}
+
+            for title_author, grouper_group in (
+                df[["title_author", "grouper"]].drop_duplicates().values
+            ):
+                group_df = df[
+                    (df["title_author"] == title_author)
+                    & (df["grouper"] == grouper_group)
+                ]
+                # Get the reversed indices for this group
+                reversed_indices = group_df.index.values[::-1]
+
+                # Map each index to its row number
+                for row_num, idx in enumerate(reversed_indices):
+                    row_numbers[idx] = row_num
+
+            # Create a Series with the original index, then reindex to match df
+            return pd.Series(row_numbers).reindex(df.index)
+
         def __in_row(df, row):
+            # Find rows that overlap with the given row
             contained = df[
                 (df["index"] != row["index"])
                 & (df["title_author"] == row["title_author"])
-                & (df["start_location"] <= row["start_location"])
-                & (df["end_location"] >= row["end_location"])
+                & (df["start_location"] <= row["end_location"])
+                & (df["end_location"] >= row["start_location"])
             ]
-            return contained.shape[0]
 
-        df["contained"] = df.apply(lambda x: __in_row(df, x), axis=1)
-        df = df[df["contained"] == 0].reset_index(drop=True)
-        df.drop(columns=["contained"], inplace=True)
+            # Check if any overlapping rows are found
+            if contained.shape[0] > 0:
+                return True
+            else:
+                return False
+
+        df = add_grouper(df)
+        df = df[
+            (df["grouper"] == 0)
+            | (
+                df.groupby(["grouper", "title_author"])["date"].transform("idxmax")
+                == df.index
+            )
+        ]
+
+        df.drop(columns=["grouper"], inplace=True)
         return df
 
     def __add_clippings_to_dict(self):
