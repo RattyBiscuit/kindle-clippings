@@ -54,10 +54,10 @@
 
 ---
 
-*Location: 865*
+*Location: 866*
 *Date: 14 Jun 2026*
 
-> Adversary's! Moreover, this way of thinking is not only shallow, but perverse! Yeshua said very plainly in the theme sentence of the Sermon on the Mount, "Do not think that I came to abolish the Law...; I did not come to abolish, but plerosai," "to fill." We learned earlier43 that Yeshua's "filling" here means making clear the full and proper sense of the Torah; and we pointed out that even if pleroo meant "fulfillment," it could not be twisted to mean "abolition," in contradiction to what he had said three words earlier. This seems so clear that it is hard for me to understand how Christian theology has even dared to propose the idea that the Torah is no more. I myself believe it came about because of anti-Jewish bias infused into the Gentile Church in its early centuries;44 this bias is now so pervasive and difficult to root out that even Christians without any personal antisemitism whatever are unavoidably affected by it.
+> Moreover, this way of thinking is not only shallow, but perverse! Yeshua said very plainly in the theme sentence of the Sermon on the Mount, "Do not think that I came to abolish the Law...; I did not come to abolish, but plerosai," "to fill." We learned earlier43 that Yeshua's "filling" here means making clear the full and proper sense of the Torah; and we pointed out that even if pleroo meant "fulfillment," it could not be twisted to mean "abolition," in contradiction to what he had said three words earlier. This seems so clear that it is hard for me to understand how Christian theology has even dared to propose the idea that the Torah is no more. I myself believe it came about because of anti-Jewish bias infused into the Gentile Church in its early centuries;44 this bias is now so pervasive and difficult to root out that even Christians without any personal antisemitism whatever are unavoidably affected by it.
 
 ---
 

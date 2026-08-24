@@ -26,13 +26,6 @@
 
 ---
 
-*Location: 3357*
-*Date: 09 Aug 2025*
-
-> adopted. (1) Who are we? We are humans, made in the image of the creator. We have responsibilities that come with this status. We are not fundamentally determined by race,
-
----
-
 *Location: 3358*
 *Date: 09 Aug 2025*
 
