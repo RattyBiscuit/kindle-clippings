@@ -77,6 +77,67 @@ class PandaClipping(Clipping):
         self.text = clipping_dict["text"]
 
 
+class Notes:
+
+    def __init__(self, path):
+        self.path = path
+
+    def remove_location(self, text):
+        """
+        Removes the location: <numbers> line from the text.
+
+        Args:
+            text (str): The text to process.
+
+        Returns:
+            str: The text with the location removed.
+        """
+
+        # Match the location: <numbers> pattern.
+        match = re.search(r"(?P<line>Location:\s*(?P<location>\d+))", text)
+
+        # Remove the match from the text.
+        location = {}
+        if match:
+            location = match.groupdict("location")
+            text = text.replace(match.groupdict("line")["line"], "")
+        return location.get("location"), text
+
+    def parse_text(self, note_text):
+        """
+        Parses the given text and returns a dictionary of location_id: text body.
+
+        Args:
+            note_text (str): The text to parse.
+
+        Returns:
+            dict: A dictionary of location_id: text body.
+        """
+
+        # Split the text into a list of lines.
+        lines = note_text.split("---")
+
+        # Create a dictionary to store the location_id: text body pairs.
+        result = {}
+
+        # Iterate over the lines.
+        for line in lines:
+            # If the line starts with a number, it is the location_id.
+            if line.strip().startswith("Location: "):
+                location, text = self.remove_location(line)
+                result[int(location)] = text.strip()
+
+        return result
+
+    def iterate(self):
+        notes = self.path.glob("*.md")
+        all_notes = {}
+        for note in notes:
+            note_text = self.parse_text(note.read_text())
+            all_notes[note.stem] = note_text
+        return all_notes
+
+
 class ClippingsReader:
     def __init__(
         self,
@@ -175,6 +236,10 @@ class ClippingsReader:
 
     def __read_from_book_notes(self):
         path = Path("~/Home/Obsidian/BookNotes").expanduser()
+        self.__read_kindle_imports_folder(path)
+        self.__read_book_notes(path)
+
+    def __read_kindle_imports_folder(self, path):
         imports = path.glob("imports/*.md")
         for imp in imports:
             imp_text = imp.read_text()
@@ -188,6 +253,10 @@ class ClippingsReader:
                 clipping = PandaClipping(clipping_dict)
                 self.clippings.add_clipping(clipping)
                 self.added_clippings.add(imp.stem)
+
+    def __read_book_notes(self, path):
+        notes = Notes(path)
+        self.notes_by_location = notes.iterate()
 
     def __parse_clippings(self):
         """
@@ -375,6 +444,14 @@ class ClippingsReader:
     def __add_clippings_to_dict(self):
         for clippings in self.df.to_dict("records"):
             clipping = PandaClipping(clippings)
+            book_notes = self.notes_by_location.get(clipping.title_author)
+            note_text = ""
+            if book_notes:
+                if book_notes.get(clipping.start_location):
+                    note_text = book_notes.get(clipping.start_location)
+                    clipping.notes = note_text.strip()
+            else:
+                clipping.notes = None
             self.clippings.add_clipping(clipping)
 
     def __group_clippings(self):
