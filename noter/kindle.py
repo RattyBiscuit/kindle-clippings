@@ -218,7 +218,9 @@ class ClippingsReader:
 
     def __concat_clippings(self, df):
         df.loc[:, "start_location"] = df.loc[:, "start_location"].astype(int)
-        df.loc[:, "end_location"] = df.loc[:, "end_location"].astype(int)
+        df["end_location"] = pd.to_numeric(df["end_location"], errors="coerce")
+        df["end_location"] = df["end_location"].astype("Int64")
+
         df = df.sort_values(
             by=["title_author", "start_location", "end_location", "date"],
         ).reset_index(drop=True)
@@ -245,8 +247,9 @@ class ClippingsReader:
     def __merge_text(self, row):
         if row["title_author"] != row["next_title_author"]:
             return row["text"]
-        if int(row["end_location"]) == int(row["next_start_location"]):
-            return row["text"] + " " + row["next_text"]
+        if not pd.isna(row["end_location"]):
+            if int(row["end_location"]) == int(row["next_start_location"]):
+                return row["text"] + " " + row["next_text"]
         return row["text"]
 
     def __filter_raw_clippings(self):
