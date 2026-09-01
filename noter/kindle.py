@@ -442,6 +442,13 @@ class ClippingsReader:
         return df
 
     def __add_clippings_to_dict(self):
+        """Convert each dataframe row into a clipping object and attach any matching notes.
+
+        Each row in the parsed Kindle data represents one highlight, note, or bookmark.
+        This method turns those rows into `PandaClipping` records, looks up any saved
+        notes for the same book/location, and stores the final clipping in the main
+        collection used later for grouping and markdown export.
+        """
         for clippings in self.df.to_dict("records"):
             clipping = PandaClipping(clippings)
             book_notes = self.notes_by_location.get(clipping.title_author)
