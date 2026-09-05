@@ -1,7 +1,9 @@
 *Location: 698*
 *Date: 06 Dec 2025*
 
-> Above it hung that symbol of Israel (Psa 80:8; Jer 2:21, Eze 19:10; Joel 1:7) a gigantic vine of pure gold, and made of votive offerings-each cluster the height of a man.---
+> Above it hung that symbol of Israel (Psa 80:8; Jer 2:21, Eze 19:10; Joel 1:7) a gigantic vine of pure gold, and made of votive offerings-each cluster the height of a man.
+
+---
 
 *Location: 777*
 *Date: 07 Dec 2025*
