@@ -11,21 +11,24 @@ from anyascii import anyascii
 from clippy import Clipping, Clippings
 
 
-def ask_user(message, default="N"):
-    options = ["Y", "N"]
-    assert default.strip().upper() in options
-    result = False
-    default_message = "Y/[N]" if default == "N" else "[Y]/N"
-    while result not in options:
-        result = input(f"{message} {default_message} ")
-        result = result.upper().strip() if result.strip() else default
-    return result == "Y"
+def ask_user(message: str, default: str = "N") -> bool:
+    options = ("Y", "N")
+    normalized_default = default.strip().upper()
+    if normalized_default not in options:
+        raise ValueError(f"Invalid default value: {default!r}; expected one of {options}")
+
+    default_message = "Y/[N]" if normalized_default == "N" else "[Y]/N"
+    while True:
+        response = input(f"{message} {default_message} ").strip()
+        normalized = response.upper() if response else normalized_default
+        if normalized in options:
+            return normalized == "Y"
 
 
 class Clipping(Clipping):
 
-    def __init__(self, raw_line, settings={}):
-        self.settings = settings
+    def __init__(self, raw_line, settings=None):
+        self.settings = settings if settings is not None else {}
         split_line = [anyascii(s.strip()) for s in raw_line.split("\n") if s]
         joined_line = "\n".join(split_line)
         super().__init__(joined_line)
