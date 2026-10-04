@@ -25,7 +25,8 @@
         "activityBarTop.inactiveForeground": "#15202b99",
         "commandCenter.foreground": "#15202b",
         "statusBar.debuggingBackground": "#28ed35",
-        "statusBar.debuggingForeground": "#15202b"
+        "statusBar.debuggingForeground": "#15202b",
+        "statusBar.inactiveBackground": "#28ed35"
     },
     "peacock.remoteColor": "#28ed35",
     "editor.formatOnSave": true,
