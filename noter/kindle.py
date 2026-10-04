@@ -15,7 +15,9 @@ def ask_user(message: str, default: str = "N") -> bool:
     options = ("Y", "N")
     normalized_default = default.strip().upper()
     if normalized_default not in options:
-        raise ValueError(f"Invalid default value: {default!r}; expected one of {options}")
+        raise ValueError(
+            f"Invalid default value: {default!r}; expected one of {options}"
+        )
 
     default_message = "Y/[N]" if normalized_default == "N" else "[Y]/N"
     while True:
@@ -77,7 +79,10 @@ class PandaClipping(Clipping):
         self.end_location = clipping_dict["end_location"]
 
         self.date = pd.to_datetime(clipping_dict["date"])
-        self.text = clipping_dict["text"]
+        text = clipping_dict["text"]
+        text = re.sub(r" \[\d+\] ", " ", text)
+        text = re.sub(r" -\[\d+\]- ", "", text)
+        self.text = text
 
 
 class Notes:
@@ -132,11 +137,28 @@ class Notes:
 
         return result
 
+    def _fix_note_text(self, note_text):
+        for key, text in note_text.items():
+            text = re.sub(
+                r"\[\[(\d+)\]\]\(\[[^\]]+\]\(([^)]+)\)\)",
+                r"[<sup>\1</sup>](\2)",
+                text,
+            )
+            text = re.sub(
+                r"\[\[(\d+)\]\]\(([^)\s]+)\)",
+                r"[<sup>\1</sup>](\2)",
+                text,
+            )
+            text = re.sub(r"\[\[(\d+)\]\]", r"<sup>\1</sup>", text)
+            note_text[key] = text
+        return note_text
+
     def iterate(self):
         notes = self.path.glob("*.md")
         all_notes = {}
         for note in notes:
             note_text = self.parse_text(note.read_text())
+            note_text = self._fix_note_text(note_text)
             all_notes[note.stem] = note_text
         return all_notes
 
