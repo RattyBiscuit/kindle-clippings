@@ -314,9 +314,9 @@ I’m too tolerant of myself. Jesus is not messing around and rebellion is no jo
 
 maintaining your good conduct among the Gentiles, so that in the things in which they slander you as evildoers, by seeing your good deeds they may glorify God on the day of visitation.  ([1 Peter 2:12](https://ref.ly/1Pe2.12;leb), LEB)
 
-For the time that has passed was sufficient ⌊to do what the Gentiles desire to do⌋, having lived in licentiousness, evil desires, drunkenness, carousing, drinking parties, and wanton idolatries,  ([1 Peter 4:3](https://ref.ly/1Pe4.3;leb), LEB)
+For the time that has passed was sufficient to do what the Gentiles desire to do, having lived in licentiousness, evil desires, drunkenness, carousing, drinking parties, and wanton idolatries,  ([1 Peter 4:3](https://ref.ly/1Pe4.3;leb), LEB)
 
-The segullah are the Righteous, no longer everyone in the ethnic community but those who bear the name whether Jew or gentile. In fact, there is no gentile but instead those grafted in are the Jews, the treasured and chosen.
+The segullah are the Righteous, no longer everyone in the ethnic community but those who bear the name whether Jew or gentile. In fact, there is no gentile but instead those grafted in are Israel, the treasured and chosen.
 
 
 
